@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "jn1:cum",
+    "minecraft:gunpowder"
+  ],
+  "result": {
+    "id": "jn1:splash_cum"
+  }
+}

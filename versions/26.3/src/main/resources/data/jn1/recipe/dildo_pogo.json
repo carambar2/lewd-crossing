@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ISI",
+    " B ",
+    " D "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "S": "minecraft:stick",
+    "B": "minecraft:slime_ball",
+    "D": "jn1:dildo"
+  },
+  "result": {
+    "id": "jn1:dildo_pogo"
+  }
+}

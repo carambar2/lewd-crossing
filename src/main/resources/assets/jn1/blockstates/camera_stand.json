@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "jn1:block/camera_stand"
+		},
+		"facing=east": {
+			"model": "jn1:block/camera_stand",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "jn1:block/camera_stand",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "jn1:block/camera_stand",
+			"y": 270
+		}
+	}
+}

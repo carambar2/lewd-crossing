@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "jn1:block/dildo",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "jn1:block/dildo",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "jn1:block/dildo",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "jn1:block/dildo",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "jn1:block/dildo"
+    },
+    "facing=west": {
+      "model": "jn1:block/dildo",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

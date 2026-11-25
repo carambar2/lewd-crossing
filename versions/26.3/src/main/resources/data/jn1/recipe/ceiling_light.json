@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "nnn",
+    "glg"
+  ],
+  "key": {
+    "n": "minecraft:iron_nugget",
+    "g": "minecraft:glass_pane",
+    "l": "minecraft:glowstone_dust"
+  },
+  "result": {
+    "id": "jn1:ceiling_light",
+    "count": 2
+  }
+}

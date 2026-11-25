@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "pattern": [
+    "ISI",
+    " B ",
+    " D "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    },
+    "D": {
+      "item": "jn1:dildo"
+    }
+  },
+  "result": {
+    "id": "jn1:dildo_pogo",
+    "count": 1
+  }
+}

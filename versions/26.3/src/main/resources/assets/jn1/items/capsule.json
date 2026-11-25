@@ -1,0 +1,9 @@
+{
+  "model": {
+    "type": "minecraft:special",
+    "base": "jn1:item/capsule",
+    "model": {
+      "type": "jn1:capsule"
+    }
+  }
+}

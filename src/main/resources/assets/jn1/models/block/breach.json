@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"top": "jn1:block/breach_top",
+		"side": "jn1:block/breach_side",
+		"bottom": "jn1:block/breach_side"
+	}
+}

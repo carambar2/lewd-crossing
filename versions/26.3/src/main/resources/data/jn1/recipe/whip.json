@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  L",
+    " L ",
+    "S  "
+  ],
+  "key": {
+    "L": "minecraft:leather",
+    "S": "minecraft:stick"
+  },
+  "result": {
+    "id": "jn1:whip"
+  }
+}

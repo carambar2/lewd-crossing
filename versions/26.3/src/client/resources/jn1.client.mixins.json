@@ -1,0 +1,29 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "dev.pyrofetch.jn1.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"CameraAccess",
+		"CameraAimMixin",
+		"CameraMixin",
+		"ClientPlayerEntityMixin",
+		"EntityRenderDispatcherMixin",
+		"GameRendererMixin",
+		"HandledScreenAccessor",
+		"HeldItemMixin",
+		"HudMixin",
+		"InputMixin",
+		"LevelRendererSkyMixin",
+		"MinecraftClientMixin",
+		"PistonBlockEntityRendererMixin",
+		"PlayerArmMixin",
+		"PlayerEntityRendererMixin",
+		"PleasureHandMixin",
+		"ShutterMixin",
+		"InGameHudMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

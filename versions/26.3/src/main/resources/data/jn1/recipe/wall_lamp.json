@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "n",
+    "l",
+    "g"
+  ],
+  "key": {
+    "n": "minecraft:iron_nugget",
+    "l": "minecraft:glowstone_dust",
+    "g": "minecraft:glass_pane"
+  },
+  "result": {
+    "id": "jn1:wall_lamp",
+    "count": 2
+  }
+}

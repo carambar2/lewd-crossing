@@ -1,0 +1,40 @@
+{
+	"textures": {
+		"papier": "jn1:block/note",
+		"particle": "jn1:block/note"
+	},
+	"elements": [
+		{
+			"from": [
+				3,
+				0.2,
+				2
+			],
+			"to": [
+				13,
+				0.2,
+				14
+			],
+			"faces": {
+				"up": {
+					"uv": [
+						3,
+						2,
+						13,
+						14
+					],
+					"texture": "#papier"
+				},
+				"down": {
+					"uv": [
+						13,
+						2,
+						3,
+						14
+					],
+					"texture": "#papier"
+				}
+			}
+		}
+	]
+}

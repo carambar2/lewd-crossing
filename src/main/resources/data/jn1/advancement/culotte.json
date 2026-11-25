@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:panties"
+    },
+    "title": {
+      "translate": "advancements.jn1.culotte.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.culotte.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jn1:panties"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jn1:root"
+}

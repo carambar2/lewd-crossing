@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "ibi",
+    "iri",
+    "ici"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "b": "minecraft:stone_button",
+    "r": "minecraft:redstone",
+    "c": "minecraft:comparator"
+  },
+  "result": {
+    "id": "jn1:lift_selector"
+  }
+}

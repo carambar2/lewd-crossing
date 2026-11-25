@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:end_rod",
+    "minecraft:pink_dye",
+    "minecraft:slime_ball"
+  ],
+  "result": {
+    "id": "jn1:dildo"
+  }
+}

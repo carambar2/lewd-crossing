@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jn1_au_cum",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "jn1:dried_cum"
+    }
+  ],
+  "result": {
+    "id": "minecraft:cooked_salmon",
+    "count": 1,
+    "components": {
+      "minecraft:item_name": "{\"translate\": \"item.jn1.au_cum\", \"with\": [{\"translate\": \"item.minecraft.cooked_salmon\"}]}",
+      "minecraft:custom_data": {
+        "jn1_au_cum": true
+      }
+    }
+  }
+}

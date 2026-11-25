@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:hazard_radiation",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.jn1.hazard_radiation.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.hazard_radiation.author",
+    "color": "gray"
+  }
+}

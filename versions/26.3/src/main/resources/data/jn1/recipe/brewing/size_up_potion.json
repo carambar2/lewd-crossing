@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "jn1:horny_potion"
+  },
+  "reagent": {
+    "item": "minecraft:bone_meal"
+  },
+  "output": {
+    "id": "jn1:size_up_potion"
+  }
+}

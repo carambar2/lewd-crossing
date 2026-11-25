@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:cum"
+    },
+    "title": {
+      "translate": "advancements.jn1.recolte.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.recolte.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "jn1:cum"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jn1:fait_main"
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:scene_remote"
+    },
+    "title": {
+      "translate": "advancements.jn1.participer.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.participer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:root"
+}

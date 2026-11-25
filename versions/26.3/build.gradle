@@ -1,0 +1,165 @@
+plugins {
+	// 26.x n'est plus obfusquée : plus de remappage, noms de Mojang partout.
+	id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+	archivesName = project.archives_base_name
+}
+
+repositories {
+	maven {
+		// JEI : seulement son API à la compilation (le greffon des recettes d'alambic).
+		name = 'BlameJared'
+		url = 'https://maven.blamejared.com/'
+	}
+	maven {
+		name = 'Modrinth'
+		url = 'https://api.modrinth.com/maven'
+		content { includeGroup 'maven.modrinth' }
+	}
+}
+
+loom {
+	splitEnvironmentSourceSets()
+	mods {
+		"jn1" {
+			sourceSet sourceSets.main
+			sourceSet sourceSets.client
+		}
+	}
+}
+
+dependencies {
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	implementation "maven.modrinth:geckolib:${project.geckolib_modrinth}"
+	compileOnly "mezz.jei:jei-${project.minecraft_version}-fabric-api:31.23.0.130"
+}
+
+// Le pilote (../../tools/pilote.py, JN1_VERSION=26.3) : mod de développement à
+// part, hors du jar, pour éprouver le portage en jeu. Absent du dépôt public.
+def avecPilote = file('src/pilote').isDirectory()
+if (avecPilote) {
+	sourceSets {
+		pilote {
+			compileClasspath += sourceSets.main.compileClasspath + sourceSets.client.compileClasspath
+			compileClasspath += sourceSets.main.output + sourceSets.client.output
+			runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.client.runtimeClasspath
+			runtimeClasspath += sourceSets.main.output + sourceSets.client.output
+		}
+	}
+	loom {
+		mods {
+			"jn1_pilote" {
+				sourceSet sourceSets.pilote
+			}
+		}
+		runs {
+			pilote {
+				client()
+				name = "Pilote"
+				source sourceSets.pilote
+				runDir = "run_pilote"
+				vmArg "-Djn1.pilote=25599"
+				programArgs "--username", "Pilote", "--width", "960", "--height", "540",
+						"--quickPlaySingleplayer", "pilote"
+			}
+		}
+	}
+}
+
+// Les ressources : celles du projet 1.21.1, sauf ce que ce dossier remplace
+// (même chemin) ou retire (RETIRÉES.txt), puis les textures retouchées d'art/.
+def base = file('../../src/main/resources')
+def baseClient = file('../../src/client/resources')
+def art = file('../../art/textures')
+def retirées = file('RETIRÉES.txt').exists()
+		? file('RETIRÉES.txt').readLines('UTF-8').collect { it.trim() }.findAll { it && !it.startsWith('#') }
+		: []
+
+processResources {
+	def props = [
+			version           : project.version,
+			minecraft_version : project.minecraft_version,
+			loader_min_version: project.loader_min_version
+	]
+	inputs.properties props
+	inputs.dir(base)
+	if (art.isDirectory()) {
+		inputs.dir(art)
+	}
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	def local = file('src/main/resources')
+	from(base) {
+		exclude { élément ->
+			def chemin = élément.relativePath.pathString
+			// Un dossier présent des deux côtés reste : seuls les fichiers se remplacent.
+			if (!élément.isDirectory() && new File(local, chemin).isFile()) return true
+			if (retirées.any { chemin == it || chemin.startsWith(it + '/') }) return true
+			if (art.isDirectory() && !élément.isDirectory() && chemin.startsWith('assets/jn1/textures/')
+					&& new File(art, chemin.substring('assets/jn1/textures/'.length())).exists()) return true
+			return false
+		}
+	}
+	// GeckoLib 5 lit ses modèles et animations sous assets/<mod>/geckolib/.
+	eachFile { détails ->
+		def chemin = détails.relativePath.pathString
+		if (chemin.startsWith('assets/jn1/geo/')) {
+			détails.path = 'assets/jn1/geckolib/models/' + chemin.substring('assets/jn1/geo/'.length())
+		} else if (chemin.startsWith('assets/jn1/animations/')) {
+			détails.path = 'assets/jn1/geckolib/animations/' + chemin.substring('assets/jn1/animations/'.length())
+		}
+	}
+	if (art.isDirectory()) {
+		from(art) {
+			into 'assets/jn1/textures'
+			include '**/*.png', '**/*.mcmeta'
+		}
+	}
+	filesMatching('fabric.mod.json') {
+		expand props
+	}
+}
+
+tasks.named('processClientResources') {
+	duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+	def local = file('src/client/resources')
+	from(baseClient) {
+		exclude { élément -> !élément.isDirectory() && new File(local, élément.relativePath.pathString).isFile() }
+	}
+}
+
+tasks.withType(JavaCompile).configureEach {
+	it.options.release = 25
+	it.options.encoding = 'UTF-8'
+	it.options.compilerArgs += ['-Xmaxerrs', '10000']
+}
+
+java {
+	toolchain {
+		languageVersion = JavaLanguageVersion.of(25)
+	}
+}
+
+jar {
+	from('../../LICENSE') {
+		rename { "${it}_jn1" }
+	}
+	from('../../CREDITS.txt')
+}
+
+// Pour compiler à la main (javac) pendant le portage, sans passer par Gradle :
+// les classpaths de main et de client, écrits dans build/.
+tasks.register('classpaths') {
+	doLast {
+		file('build').mkdirs()
+		file('build/cp-main.txt').text = sourceSets.main.compileClasspath.asPath
+		file('build/cp-client.txt').text = sourceSets.client.compileClasspath.asPath
+	}
+}
+

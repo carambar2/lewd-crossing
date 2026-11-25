@@ -1,0 +1,1177 @@
+[
+ {
+  "id": "jenny.talk.chat.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Oh! Hi! Sorry, I'm still figuring out where everything is around here."
+   },
+   {
+    "text": "You wanna talk? Yay! Nobody ever just... talks to me."
+   },
+   {
+    "text": "I counted the blocks in the ceiling today. There are a lot. That's my news!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.chat.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "I like it when you hang around. It feels less empty."
+   },
+   {
+    "text": "Guess what? I found a flower that's the exact color of my hair! I didn't pick it. It looked happy."
+   },
+   {
+    "text": "Do you ever think creepers are just lonely? Like, they only want a hug... and then BOOM."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.chat.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Talking to you is my favorite part of the day. Don't tell the sheep."
+   },
+   {
+    "text": "I was thinking about you just now. Not in a weird way! ...Okay, maybe a little weird."
+   },
+   {
+    "text": "Stay a bit? I don't even need to say anything. I just like you here."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.chat.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Uh-huh... sorry, I spaced out. What were we talking about?"
+   },
+   {
+    "text": "Mm. Cool. ...Cool cool cool."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.chat.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You said that already, cutie. Twice! Are you okay?"
+   },
+   {
+    "text": "Hey, you're not even listening to yourself. I can tell."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.joke.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Pfff— hahaha! Okay, that was dumb. I loved it."
+   },
+   {
+    "text": "*snort* Oh no, I snorted. Forget you heard that."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.joke.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Hahaha! Stop, my bell's gonna fall off!"
+   },
+   {
+    "text": "Okay okay, my turn: why did the skeleton stay home? No body to go out with! ...Hehe."
+   },
+   {
+    "text": "You're so stupid. Tell me another one!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.joke.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "I laughed so hard I squeaked. You did that. Be proud."
+   },
+   {
+    "text": "You know the way to a girl's heart is making her laugh, right? You're very, very close."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.joke.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "...Was that a joke? I'll laugh if it was a joke. Ha."
+   },
+   {
+    "text": "I don't get it. Was it about pickaxes?"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.joke.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Aww, that one died, cutie. I'll hold a funeral for it."
+   },
+   {
+    "text": "That was so bad I'm actually impressed. No laugh though."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.compliment.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "R-really? You think so? Hehe, thanks!"
+   },
+   {
+    "text": "Oh! Um. Thank you! My face is doing a thing now."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.compliment.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Stoooop. No, keep going. I'm listening."
+   },
+   {
+    "text": "*jingle* That's my bell. It rings when I'm happy. It's ringing a lot."
+   },
+   {
+    "text": "You're gonna make me blush all the way down. Like, ALL the way."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.compliment.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You always know exactly what to say. It's not fair."
+   },
+   {
+    "text": "I'm keeping that one. I'm putting it in a little box in my heart. Forever."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.compliment.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Uh, thanks...? That's kind of a weird thing to say to someone you just met."
+   },
+   {
+    "text": "Hm. You say that to all the girls, don't you?"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.compliment.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Nice try, cutie. You're just buttering me up."
+   },
+   {
+    "text": "You said that with the face you make when you want something."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.flirt.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Whoa, forward! I... don't hate it. Hehe."
+   },
+   {
+    "text": "Are you flirting with me? You ARE! Oh my gosh."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.flirt.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Keep talking like that and see what happens~"
+   },
+   {
+    "text": "Mmm, you're bad. I like bad."
+   },
+   {
+    "text": "You know my collar has a bell so you can always find me, right? Just saying~"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.flirt.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Keep that up and I'm dragging you somewhere private, cutie."
+   },
+   {
+    "text": "You don't have to flirt anymore, you know. You already won. ...But don't stop."
+   },
+   {
+    "text": "I'm all yours. Every bit. Wanna check?"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.flirt.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Woah, slow down! Buy me a diamond first!"
+   },
+   {
+    "text": "Hehe, nope. Not yet, cutie. Try being nice to me first!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.flirt.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "That line was so cheesy I could put it on a cookie."
+   },
+   {
+    "text": "Pfft. You can do better than that and you know it."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.tease.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Hey! Rude! ...Okay, it was a little funny."
+   },
+   {
+    "text": "Hmph. I'm not pouting. This is just my face."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.tease.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Oh yeah? Well, you mine like a baby zombie. So there."
+   },
+   {
+    "text": "Hehe, meanie. Do it again."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.tease.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Teasing me, huh? You know I'm gonna get you back for that. Tonight."
+   },
+   {
+    "text": "You're lucky you're cute."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.tease.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "...That's mean. I'm going to go stand over there now."
+   },
+   {
+    "text": "Hey! I'm not dumb. I'm just... cheerful!"
+   },
+   {
+    "text": "Wow. Okay. My bell isn't ringing anymore."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.tease.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Ouch, cutie. That one actually stung a little."
+   },
+   {
+    "text": "I'm pouting. Officially. You did this."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.kiss.success.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Mmh! ...Wow. Okay. Hi."
+   },
+   {
+    "text": "That was sudden! Do it again so I can pay attention this time."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.kiss.success.mid",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Mmm~ Your lips taste like adventure."
+   },
+   {
+    "text": "*jingle jingle* ...I can't stop my bell. That was nice."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.kiss.success.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Mwah! More. More more more."
+   },
+   {
+    "text": "I could kiss you all day. Wanna test that?"
+   },
+   {
+    "text": "You kiss me like that and I forget my own name. Who am I? Who cares."
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.kiss.fail.low",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Hey! Hands off! *slap* ...Sorry! Reflex! But also, no!"
+   },
+   {
+    "text": "Woah! We just met! *slap*"
+   }
+  ]
+ },
+ {
+  "id": "jenny.talk.kiss.fail.high",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Not right now, cutie, I'm grumpy. *boop*"
+   },
+   {
+    "text": "You moved too fast and bonked my nose. Ow."
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.0",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Hi! What's up?"
+   },
+   {
+    "text": "Oh, hey! You need something?"
+   },
+   {
+    "text": "Hello again! I'm Jenny, in case you forgot. You didn't forget, right?"
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.1",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Heyyy! There you are!"
+   },
+   {
+    "text": "Hi, cutie! Missed me?"
+   },
+   {
+    "text": "Ooh, it's you! Best part of my day!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.2",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "Hi, my favorite person in the whole world!"
+   },
+   {
+    "text": "There's my cutie~ What are we doing today?"
+   },
+   {
+    "text": "*jingle* You came to see me! Hehe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.3",
+  "priority": 1,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "...Oh. It's you. Hi."
+   },
+   {
+    "text": "I'm not talking to you. ...Okay, I am. But I'm grumpy."
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.4",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "mood_min": 7
+  },
+  "lines": [
+   {
+    "text": "I'm SO happy right now! I could explode! Not like a creeper. Nicer."
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.5",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "Hehe, like what you see?"
+   },
+   {
+    "text": "It's breezy in here... I'm not complaining though~"
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.6",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "I'm a little... sticky. You know whose fault that is? Yours. Hehe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.interact.7",
+  "priority": 0,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "interact",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "You gonna let me out of these? ...Or not? Hehe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.0",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient"
+  },
+  "lines": [
+   {
+    "text": "*hums a little tune*"
+   },
+   {
+    "text": "Do you think pigs know they're pink? I'm pink. I know."
+   },
+   {
+    "text": "I wonder what's for dinner. I hope it's cake."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.1",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "time": "night"
+  },
+  "lines": [
+   {
+    "text": "It's so dark... stay close, okay?"
+   },
+   {
+    "text": "The stars are pretty tonight. Not as pretty as me, but close."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.2",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "time": "day"
+  },
+  "lines": [
+   {
+    "text": "Such a nice day! Let's go do something fun!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.3",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "dimension": "jn1:lab"
+  },
+  "lines": [
+   {
+    "text": "This place is so empty. It gives me goosebumps."
+   },
+   {
+    "text": "I don't like the void. It doesn't look back at you."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.4",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "y_below": 30
+  },
+  "lines": [
+   {
+    "text": "We're really deep, huh? I can't see the sky anymore."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.5",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "following": true
+  },
+  "lines": [
+   {
+    "text": "I'm right behind you! Like, right behind you."
+   },
+   {
+    "text": "Where are we going? Somewhere fun? Please say somewhere fun."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.6",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "Hehe, I feel so naughty walking around like this."
+   },
+   {
+    "text": "If anybody sees me like this, I'm blaming you."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.7",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "I really should wash up... Later. Maybe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.8",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "These cuffs are kinda cute, actually. They match my collar."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.9",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "Hey, cutie? ...Nothing. I just like saying it."
+   },
+   {
+    "text": "I'm really glad you picked me, you know."
+   }
+  ]
+ },
+ {
+  "id": "jenny.ambient.10",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "ambient",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "Hmph."
+   },
+   {
+    "text": "I'm still mad, by the way. Just so you know."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.hug",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "hug"
+  },
+  "lines": [
+   {
+    "text": "Squeeeeze! Hehe~"
+   },
+   {
+    "text": "Mmm, warm! Don't let go yet."
+   },
+   {
+    "text": "Best hugs in the world. Officially certified by me."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.whip",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "whip"
+  },
+  "lines": [
+   {
+    "text": "Ah! ...Hehe, again?"
+   },
+   {
+    "text": "Ow! You meanie~"
+   },
+   {
+    "text": "Eep! That stings! ...In a good way."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.cuffed",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "cuffed"
+  },
+  "lines": [
+   {
+    "text": "Ooh, kinky! Am I under arrest?"
+   },
+   {
+    "text": "Oh no, I'm caught! Whatever will I do~"
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.uncuffed",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "uncuffed"
+  },
+  "lines": [
+   {
+    "text": "Aww, already? I was having fun."
+   },
+   {
+    "text": "Free! ...Kinda miss them already."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.undress",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "undress"
+  },
+  "lines": [
+   {
+    "text": "Hehe, it's getting chilly in here~"
+   },
+   {
+    "text": "Don't stare too much! ...Okay, stare a little."
+   },
+   {
+    "text": "Whoops, where did my clothes go? Hehe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.dress",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "dress"
+  },
+  "lines": [
+   {
+    "text": "Back to being decent! For now."
+   },
+   {
+    "text": "All dressed up! Do I look cute?"
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.after",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "after"
+  },
+  "lines": [
+   {
+    "text": "Haah... wow. Can we just lie here for a bit?"
+   },
+   {
+    "text": "That was amazing, cutie. You're amazing."
+   },
+   {
+    "text": "*panting* ...I can't feel my legs. Worth it."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.demande",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "demande"
+  },
+  "lines": [
+   {
+    "text": "Ooh, yes please~"
+   },
+   {
+    "text": "I thought you'd never ask!"
+   },
+   {
+    "text": "Hehe, come here, you."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.cum_poured",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "cum_poured"
+  },
+  "lines": [
+   {
+    "text": "Eek! It's warm!"
+   },
+   {
+    "text": "Hey, that's going in my hair! ...Hehe."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.wakeup",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "wakeup"
+  },
+  "lines": [
+   {
+    "text": "Good morning, sleepyhead~ I made you breakfast. Kind of."
+   },
+   {
+    "text": "Rise and shine, cutie! Well... part of you already did."
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.reunion",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "reunion"
+  },
+  "lines": [
+   {
+    "text": "You're back! I missed you SO much!"
+   },
+   {
+    "text": "Where have you been?! Never leave me alone that long again!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.left",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "left"
+  },
+  "lines": [
+   {
+    "text": "Wait, that's it? ...Didn't you like it?"
+   },
+   {
+    "text": "Aww, why'd you stop? Was I doing it wrong?"
+   },
+   {
+    "text": "Hey! I was just getting started, cutie!"
+   }
+  ]
+ },
+ {
+  "id": "jenny.event.arrival",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "event",
+   "event": "arrival"
+  },
+  "lines": [
+   {
+    "text": "Ta-da! Did you miss me? Say you missed me."
+   },
+   {
+    "text": "Hi hi! Where are we going? Can I come? I'm coming."
+   },
+   {
+    "text": "Ooh, new place! Is it a date? It's a date."
+   }
+  ]
+ },
+ {
+  "id": "jenny.gift.liked",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "gift",
+   "outcome": "liked"
+  },
+  "lines": [
+   {
+    "text": "For me? Eeee! Thank you!"
+   },
+   {
+    "text": "Ooh, shiny! I love it!"
+   },
+   {
+    "text": "You're spoiling me! Don't stop."
+   }
+  ]
+ },
+ {
+  "id": "jenny.gift.disliked",
+  "conditions": {
+   "girl": "jenny",
+   "trigger": "gift",
+   "outcome": "disliked"
+  },
+  "lines": [
+   {
+    "text": "Um... what am I supposed to do with this?"
+   },
+   {
+    "text": "Hehe, that's not really my thing, cutie."
+   }
+  ]
+ }
+]

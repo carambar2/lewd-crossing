@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "SSS",
+    "I I",
+    "I I"
+  ],
+  "key": {
+    "S": "minecraft:smooth_stone_slab",
+    "I": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "jn1:lab_bench"
+  }
+}

@@ -1,0 +1,138 @@
+{
+	"parent": "minecraft:block/block",
+	"textures": {
+		"particle": "jn1:block/aura_projector_top",
+		"top": "jn1:block/aura_projector_top",
+		"side": "jn1:block/aura_projector_side"
+	},
+	"elements": [
+		{
+			"from": [
+				1,
+				0,
+				1
+			],
+			"to": [
+				15,
+				2,
+				15
+			],
+			"faces": {
+				"up": {
+					"uv": [
+						1,
+						1,
+						15,
+						15
+					],
+					"texture": "#top"
+				},
+				"down": {
+					"uv": [
+						1,
+						1,
+						15,
+						15
+					],
+					"texture": "#top",
+					"cullface": "down"
+				},
+				"north": {
+					"uv": [
+						1,
+						14,
+						15,
+						16
+					],
+					"texture": "#side"
+				},
+				"south": {
+					"uv": [
+						1,
+						14,
+						15,
+						16
+					],
+					"texture": "#side"
+				},
+				"east": {
+					"uv": [
+						1,
+						14,
+						15,
+						16
+					],
+					"texture": "#side"
+				},
+				"west": {
+					"uv": [
+						1,
+						14,
+						15,
+						16
+					],
+					"texture": "#side"
+				}
+			}
+		},
+		{
+			"from": [
+				3,
+				2,
+				3
+			],
+			"to": [
+				13,
+				3,
+				13
+			],
+			"faces": {
+				"up": {
+					"uv": [
+						3,
+						3,
+						13,
+						13
+					],
+					"texture": "#top"
+				},
+				"north": {
+					"uv": [
+						3,
+						13,
+						13,
+						14
+					],
+					"texture": "#side"
+				},
+				"south": {
+					"uv": [
+						3,
+						13,
+						13,
+						14
+					],
+					"texture": "#side"
+				},
+				"east": {
+					"uv": [
+						3,
+						13,
+						13,
+						14
+					],
+					"texture": "#side"
+				},
+				"west": {
+					"uv": [
+						3,
+						13,
+						13,
+						14
+					],
+					"texture": "#side"
+				}
+			}
+		}
+	]
+}

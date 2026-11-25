@@ -1,0 +1,42 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "jn1:block/glory_wall",
+    "panneau": "jn1:block/glory_wall",
+    "acier": "jn1:block/glory_wall_rim"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        7
+      ],
+      "to": [
+        16,
+        16,
+        9
+      ],
+      "faces": {
+        "north": {
+          "texture": "#panneau"
+        },
+        "south": {
+          "texture": "#panneau"
+        },
+        "east": {
+          "texture": "#panneau"
+        },
+        "west": {
+          "texture": "#panneau"
+        },
+        "up": {
+          "texture": "#panneau"
+        },
+        "down": {
+          "texture": "#panneau"
+        }
+      }
+    }
+  ]
+}

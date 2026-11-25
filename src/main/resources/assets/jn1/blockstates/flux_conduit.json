@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "jn1:block/flux_conduit"
+		},
+		"facing=east": {
+			"model": "jn1:block/flux_conduit",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "jn1:block/flux_conduit",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "jn1:block/flux_conduit",
+			"y": 270
+		}
+	}
+}

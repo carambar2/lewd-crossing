@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "jn1:dried_cum"
+    }
+  ],
+  "result": {
+    "id": "minecraft:magma_cream",
+    "count": 1
+  }
+}

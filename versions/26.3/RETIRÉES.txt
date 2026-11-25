@@ -1,0 +1,47 @@
+# Ressources du projet 1.21.1 que le jar 26.3 ne prend pas (un chemin ou un dossier par
+# ligne, relatif à la racine des ressources). Voir build.gradle.
+# --- convertir_ressources.py : début (ne pas retoucher à la main) ---
+assets/jn1/textures/models/armor/void_suit_layer_1.png
+assets/jn1/textures/models/armor/void_suit_layer_2.png
+assets/minecraft/models/item/apple.json
+assets/minecraft/models/item/baked_potato.json
+assets/minecraft/models/item/beef.json
+assets/minecraft/models/item/beetroot.json
+assets/minecraft/models/item/beetroot_soup.json
+assets/minecraft/models/item/bread.json
+assets/minecraft/models/item/carrot.json
+assets/minecraft/models/item/chicken.json
+assets/minecraft/models/item/chorus_fruit.json
+assets/minecraft/models/item/cod.json
+assets/minecraft/models/item/cooked_beef.json
+assets/minecraft/models/item/cooked_chicken.json
+assets/minecraft/models/item/cooked_cod.json
+assets/minecraft/models/item/cooked_mutton.json
+assets/minecraft/models/item/cooked_porkchop.json
+assets/minecraft/models/item/cooked_rabbit.json
+assets/minecraft/models/item/cooked_salmon.json
+assets/minecraft/models/item/cookie.json
+assets/minecraft/models/item/dried_kelp.json
+assets/minecraft/models/item/enchanted_golden_apple.json
+assets/minecraft/models/item/glow_berries.json
+assets/minecraft/models/item/golden_apple.json
+assets/minecraft/models/item/golden_carrot.json
+assets/minecraft/models/item/honey_bottle.json
+assets/minecraft/models/item/melon_slice.json
+assets/minecraft/models/item/mushroom_stew.json
+assets/minecraft/models/item/mutton.json
+assets/minecraft/models/item/ominous_bottle.json
+assets/minecraft/models/item/poisonous_potato.json
+assets/minecraft/models/item/porkchop.json
+assets/minecraft/models/item/potato.json
+assets/minecraft/models/item/pufferfish.json
+assets/minecraft/models/item/pumpkin_pie.json
+assets/minecraft/models/item/rabbit.json
+assets/minecraft/models/item/rabbit_stew.json
+assets/minecraft/models/item/rotten_flesh.json
+assets/minecraft/models/item/salmon.json
+assets/minecraft/models/item/spider_eye.json
+assets/minecraft/models/item/suspicious_stew.json
+assets/minecraft/models/item/sweet_berries.json
+assets/minecraft/models/item/tropical_fish.json
+# --- convertir_ressources.py : fin ---

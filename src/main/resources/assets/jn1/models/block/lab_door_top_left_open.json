@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/door_top_left_open",
+	"textures": {
+		"bottom": "jn1:block/lab_door_lower",
+		"top": "jn1:block/lab_door_upper"
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"top": "jn1:block/flux_conduit",
+		"side": "jn1:block/flux_conduit",
+		"front": "jn1:block/flux_conduit",
+		"bottom": "jn1:block/flux_conduit",
+		"particle": "jn1:block/flux_conduit"
+	}
+}

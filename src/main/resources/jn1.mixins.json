@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.pyrofetch.jn1.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityMixin",
+    "LivingEntityMixin",
+    "MinecraftServerMixin",
+    "PistonBlockEntityMixin",
+    "PistonBlockMixin",
+    "PistonHeadBlockMixin",
+    "PlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin",
+    "SinglePoolElementAccessor",
+    "BrewingRecipeRegistryMixin",
+    "BrewingPotionSlotMixin",
+    "BrewingStandBlockEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

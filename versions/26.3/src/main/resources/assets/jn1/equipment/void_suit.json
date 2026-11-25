@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "jn1:void_suit"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "jn1:void_suit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:whip"
+    },
+    "title": {
+      "translate": "advancements.jn1.fouet.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.fouet.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:menottes"
+}

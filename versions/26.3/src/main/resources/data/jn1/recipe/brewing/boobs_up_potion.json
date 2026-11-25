@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "jn1:horny_potion"
+  },
+  "reagent": {
+    "item": "minecraft:slime_ball"
+  },
+  "output": {
+    "id": "jn1:boobs_up_potion"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ggg",
+    "iri"
+  ],
+  "key": {
+    "g": "minecraft:glass_pane",
+    "i": "minecraft:iron_ingot",
+    "r": "minecraft:redstone"
+  },
+  "result": {
+    "id": "jn1:wall_screen",
+    "count": 3
+  }
+}

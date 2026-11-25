@@ -1,0 +1,65 @@
+{
+	"variants": {
+		"face=floor,facing=north": {
+			"model": "jn1:block/barricade"
+		},
+		"face=wall,facing=north": {
+			"model": "jn1:block/barricade",
+			"x": 90,
+			"uvlock": true
+		},
+		"face=ceiling,facing=north": {
+			"model": "jn1:block/barricade",
+			"x": 180,
+			"uvlock": true
+		},
+		"face=floor,facing=east": {
+			"model": "jn1:block/barricade",
+			"y": 90
+		},
+		"face=wall,facing=east": {
+			"model": "jn1:block/barricade",
+			"x": 90,
+			"uvlock": true,
+			"y": 90
+		},
+		"face=ceiling,facing=east": {
+			"model": "jn1:block/barricade",
+			"x": 180,
+			"uvlock": true,
+			"y": 90
+		},
+		"face=floor,facing=south": {
+			"model": "jn1:block/barricade",
+			"y": 180
+		},
+		"face=wall,facing=south": {
+			"model": "jn1:block/barricade",
+			"x": 90,
+			"uvlock": true,
+			"y": 180
+		},
+		"face=ceiling,facing=south": {
+			"model": "jn1:block/barricade",
+			"x": 180,
+			"uvlock": true,
+			"y": 180
+		},
+		"face=floor,facing=west": {
+			"model": "jn1:block/barricade",
+			"y": 270
+		},
+		"face=wall,facing=west": {
+			"model": "jn1:block/barricade",
+			"x": 90,
+			"uvlock": true,
+			"y": 270
+		},
+		"face=ceiling,facing=west": {
+			"model": "jn1:block/barricade",
+			"x": 180,
+			"uvlock": true,
+			"y": 270
+		}
+	}
+}

@@ -1,0 +1,152 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "jn1:block/neon_glow",
+		"glass": "jn1:block/neon_glow",
+		"metal": "jn1:block/fixture_metal"
+	},
+	"elements": [
+		{
+			"from": [
+				0,
+				1,
+				7
+			],
+			"to": [
+				16,
+				3,
+				9
+			],
+			"faces": {
+				"north": {
+					"texture": "#glass",
+					"uv": [
+						0,
+						7,
+						16,
+						9
+					],
+					"tintindex": 0
+				},
+				"south": {
+					"texture": "#glass",
+					"uv": [
+						0,
+						7,
+						16,
+						9
+					],
+					"tintindex": 0
+				},
+				"up": {
+					"texture": "#glass",
+					"uv": [
+						0,
+						7,
+						16,
+						9
+					],
+					"tintindex": 0
+				},
+				"down": {
+					"texture": "#glass",
+					"uv": [
+						0,
+						7,
+						16,
+						9
+					],
+					"tintindex": 0
+				},
+				"east": {
+					"texture": "#glass",
+					"uv": [
+						7,
+						7,
+						9,
+						9
+					],
+					"tintindex": 0
+				},
+				"west": {
+					"texture": "#glass",
+					"uv": [
+						7,
+						7,
+						9,
+						9
+					],
+					"tintindex": 0
+				}
+			},
+			"name": "tube"
+		},
+		{
+			"from": [
+				3,
+				0,
+				6
+			],
+			"to": [
+				4,
+				3.5,
+				10
+			],
+			"faces": {
+				"north": {
+					"texture": "#metal"
+				},
+				"south": {
+					"texture": "#metal"
+				},
+				"east": {
+					"texture": "#metal"
+				},
+				"west": {
+					"texture": "#metal"
+				},
+				"up": {
+					"texture": "#metal"
+				},
+				"down": {
+					"texture": "#metal"
+				}
+			},
+			"name": "collier"
+		},
+		{
+			"from": [
+				12,
+				0,
+				6
+			],
+			"to": [
+				13,
+				3.5,
+				10
+			],
+			"faces": {
+				"north": {
+					"texture": "#metal"
+				},
+				"south": {
+					"texture": "#metal"
+				},
+				"east": {
+					"texture": "#metal"
+				},
+				"west": {
+					"texture": "#metal"
+				},
+				"up": {
+					"texture": "#metal"
+				},
+				"down": {
+					"texture": "#metal"
+				}
+			},
+			"name": "collier"
+		}
+	],
+	"ambientocclusion": false
+}

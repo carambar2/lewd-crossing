@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:cummy_piston"
+    },
+    "title": {
+      "translate": "advancements.jn1.cummy.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.cummy.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "jn1:cummy_piston"
+          }
+        ]
+      }
+    }
+  },
+  "parent": "jn1:recolte"
+}

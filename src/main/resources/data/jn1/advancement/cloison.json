@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:glory_wall"
+    },
+    "title": {
+      "translate": "advancements.jn1.cloison.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.cloison.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:participer"
+}

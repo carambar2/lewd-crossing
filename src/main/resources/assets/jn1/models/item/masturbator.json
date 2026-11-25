@@ -1,0 +1,317 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "corps": "jn1:item/masturbator",
+    "particle": "jn1:item/masturbator"
+  },
+  "display": {
+    "gui": {
+      "rotation": [
+        30,
+        225,
+        -35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "ground": {
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        0,
+        0,
+        -35
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "thirdperson_righthand": {
+      "rotation": [
+        75,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        45,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        225,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  },
+  "elements": [
+    {
+      "from": [
+        5.5,
+        0,
+        5.5
+      ],
+      "to": [
+        10.5,
+        9,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            8
+          ]
+        },
+        "south": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            8
+          ]
+        },
+        "east": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            8
+          ]
+        },
+        "west": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            8
+          ]
+        },
+        "up": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            5
+          ]
+        },
+        "down": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            0,
+            5,
+            5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        9,
+        5
+      ],
+      "to": [
+        11,
+        10.5,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            10
+          ]
+        },
+        "south": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            10
+          ]
+        },
+        "east": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            10
+          ]
+        },
+        "west": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            10
+          ]
+        },
+        "up": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            12
+          ]
+        },
+        "down": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            6,
+            12
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        10.5,
+        5.5
+      ],
+      "to": [
+        10.5,
+        13,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            9,
+            5,
+            11
+          ]
+        },
+        "south": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            9,
+            5,
+            11
+          ]
+        },
+        "east": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            9,
+            5,
+            11
+          ]
+        },
+        "west": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            9,
+            5,
+            11
+          ]
+        },
+        "up": {
+          "texture": "#corps",
+          "uv": [
+            4,
+            12,
+            8,
+            16
+          ]
+        },
+        "down": {
+          "texture": "#corps",
+          "uv": [
+            0,
+            8,
+            5,
+            12
+          ]
+        }
+      }
+    }
+  ]
+}

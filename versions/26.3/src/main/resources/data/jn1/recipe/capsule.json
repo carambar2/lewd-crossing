@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " I ",
+    "IPI",
+    " R "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "P": "minecraft:ender_pearl",
+    "R": "minecraft:redstone"
+  },
+  "result": {
+    "id": "jn1:capsule"
+  }
+}

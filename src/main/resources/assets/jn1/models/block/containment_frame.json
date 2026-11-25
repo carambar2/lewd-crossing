@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "jn1:block/containment_frame_end",
+    "side": "jn1:block/containment_frame_side"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"#X#",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "minecraft:stick"
+		},
+		"X": {
+			"item": "minecraft:paper"
+		}
+	},
+	"result": {
+		"id": "jn1:photo_frame",
+		"count": 1
+	}
+}

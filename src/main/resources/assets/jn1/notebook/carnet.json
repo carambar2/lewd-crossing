@@ -1,0 +1,605 @@
+{
+  "chapitres": [
+    {
+      "titre": "lab",
+      "pages": [
+        {
+          "texte": "lab.0",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:lab_door[facing=south,half=lower]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:lab_door[facing=south,half=upper]",
+                "pos": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "taille": 24
+          }
+        },
+        {
+          "texte": "lab.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:computer[facing=south]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "lab.2",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:aura_projector",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "lab.3",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:vending_machine[facing=south,half=lower]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:vending_machine[facing=south,half=upper]",
+                "pos": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "taille": 24
+          }
+        },
+        {
+          "texte": "lab.4",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:camera",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "girls",
+      "pages": [
+        {
+          "texte": "girls.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:capsule_pod[facing=south]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "girls.3"
+        },
+        {
+          "texte": "girls.4"
+        },
+        {
+          "texte": "girls.5"
+        }
+      ]
+    },
+    {
+      "titre": "scenes",
+      "pages": [
+        {
+          "texte": "scenes.1",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:scene_remote",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "scenes.2"
+        }
+      ]
+    },
+    {
+      "titre": "self",
+      "pages": [
+        {
+          "texte": "self.1",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:gender_potion",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "self.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:masturbator",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "self.3",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:horny_potion",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "cum",
+      "pages": [
+        {
+          "texte": "cum.1",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:cum",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "cum.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:dried_cum",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "cooking",
+      "pages": [
+        {
+          "texte": "cooking.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:cum_cauldron[level=3,caille=true]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "cooking.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "minecraft:bread",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "cooking.3"
+        }
+      ]
+    },
+    {
+      "titre": "toys",
+      "pages": [
+        {
+          "texte": "toys.1",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:handcuffs",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "toys.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:whip",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "toys.3",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:dance_pole",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:dance_pole",
+                "pos": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "taille": 20
+          }
+        },
+        {
+          "texte": "toys.4",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:glory_wall[facing=south,half=lower]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:glory_wall[facing=south,half=upper]",
+                "pos": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "taille": 22
+          }
+        },
+        {
+          "texte": "toys.5",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:panties",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "toys.6",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:dildo_pogo",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "machines",
+      "pages": [
+        {
+          "texte": "machines.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:cummy_piston[facing=up]",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:dildo[facing=up]",
+                "pos": [
+                  0,
+                  1,
+                  0
+                ]
+              }
+            ],
+            "taille": 22
+          }
+        },
+        {
+          "texte": "machines.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:cum_arrow",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "machines.3",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:cum_jar",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "machines.4",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:compressor",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "shapes",
+      "pages": [
+        {
+          "texte": "shapes.1",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:boobs_up_potion",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "void",
+      "pages": [
+        {
+          "texte": "void.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:breach",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "void.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:void_suit",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "void.3",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:lidar",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "titre": "house",
+      "pages": [
+        {
+          "texte": "house.1",
+          "figure": {
+            "elements": [
+              {
+                "bloc": "jn1:lift_platform",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "jn1:lift_platform",
+                "pos": [
+                  1,
+                  0,
+                  0
+                ]
+              },
+              {
+                "bloc": "minecraft:iron_door[facing=north,half=lower]",
+                "pos": [
+                  0,
+                  1,
+                  1
+                ]
+              },
+              {
+                "bloc": "minecraft:iron_door[facing=north,half=upper]",
+                "pos": [
+                  0,
+                  2,
+                  1
+                ]
+              },
+              {
+                "bloc": "jn1:lift_selector[facing=south]",
+                "pos": [
+                  1,
+                  2,
+                  1
+                ]
+              }
+            ],
+            "taille": 18
+          }
+        },
+        {
+          "texte": "house.2",
+          "figure": {
+            "elements": [
+              {
+                "objet": "jn1:camera",
+                "pos": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "texte": "house.3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jn1_au_cum",
+  "ingredients": [
+    "minecraft:glow_berries",
+    "jn1:dried_cum"
+  ],
+  "result": {
+    "id": "minecraft:glow_berries",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.jn1.au_cum",
+        "with": [
+          {
+            "translate": "item.minecraft.glow_berries"
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "jn1_au_cum": true
+      }
+    }
+  }
+}

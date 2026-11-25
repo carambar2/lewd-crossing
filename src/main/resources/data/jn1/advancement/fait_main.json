@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:masturbator"
+    },
+    "title": {
+      "translate": "advancements.jn1.fait_main.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.fait_main.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:root"
+}

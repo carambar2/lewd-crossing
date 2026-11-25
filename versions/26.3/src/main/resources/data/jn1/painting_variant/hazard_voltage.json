@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:hazard_voltage",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.jn1.hazard_voltage.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.hazard_voltage.author",
+    "color": "gray"
+  }
+}

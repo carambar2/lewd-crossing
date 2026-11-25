@@ -1,0 +1,69 @@
+package dev.pyrofetch.jn1.rift;
+
+import dev.pyrofetch.jn1.JN1;
+import dev.pyrofetch.jn1.entity.AuraEntity;
+import dev.pyrofetch.jn1.registry.ModBlockEntities;
+import dev.pyrofetch.jn1.registry.ModEntities;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.entity.BlockEntity;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.server.world.ServerWorld;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+/**
+ * Ce que retient un projecteur holographique : où il a fait paraître Aura.
+ *
+ * <p>Il la fait paraître une fois, en veille, au-dessus de lui. Retenir la
+ * <em>position</em> plutôt qu'un simple « c'est fait » compte : le projecteur
+ * vit dans un bâtiment conçu en jeu puis sauvé au structure block, et la
+ * génération le recopie ailleurs avec ses données. À une autre place, il n'est
+ * plus celui qui l'a fait paraître — il en fait paraître une nouvelle. À sa
+ * place d'origine, il n'en refait pas.
+ */
+public class AuraProjectorBlockEntity extends BlockEntity {
+	@Nullable
+	private BlockPos paruEn;
+
+	public AuraProjectorBlockEntity(BlockPos pos, BlockState state) {
+		super(ModBlockEntities.AURA_PROJECTOR, pos, state);
+	}
+
+	public static void tick(World monde, BlockPos pos, BlockState état, AuraProjectorBlockEntity projecteur) {
+		if (monde.getTime() % 20 != 0 || pos.equals(projecteur.paruEn) || !(monde instanceof ServerWorld serveur)) {
+			return;
+		}
+		AuraEntity aura = ModEntities.AURA.create(serveur);
+		if (aura == null) {
+			return;
+		}
+		// Posée sur le disque, qui n'a que trois pixels de haut.
+		aura.refreshPositionAndAngles(pos.getX() + 0.5, pos.getY() + AuraProjectorBlock.HAUTEUR, pos.getZ() + 0.5,
+				monde.random.nextFloat() * 360.0F, 0.0F);
+		if (!serveur.isSpaceEmpty(aura)) {
+			return;  // quelque chose l'occupe : on réessaiera à la seconde suivante
+		}
+		aura.setDormant(true);
+		aura.setAnchorPos(pos.up());
+		serveur.spawnEntity(aura);
+		projecteur.paruEn = pos.toImmutable();
+		projecteur.markDirty();
+		JN1.LOGGER.info("Aura projetée en veille, en {}.", pos.toShortString());
+	}
+
+	@Override
+	protected void readNbt(NbtCompound nbt, RegistryWrapper.WrapperLookup registries) {
+		super.readNbt(nbt, registries);
+		this.paruEn = nbt.contains("Paru") ? BlockPos.fromLong(nbt.getLong("Paru")) : null;
+	}
+
+	@Override
+	protected void writeNbt(NbtCompound nbt, RegistryWrapper.WrapperLookup registries) {
+		super.writeNbt(nbt, registries);
+		if (this.paruEn != null) {
+			nbt.putLong("Paru", this.paruEn.asLong());
+		}
+	}
+}

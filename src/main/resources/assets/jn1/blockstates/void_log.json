@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=y": {
+			"model": "jn1:block/void_log"
+		},
+		"axis=x": {
+			"model": "jn1:block/void_log_horizontal",
+			"x": 90,
+			"y": 90
+		},
+		"axis=z": {
+			"model": "jn1:block/void_log_horizontal",
+			"x": 90
+		}
+	}
+}

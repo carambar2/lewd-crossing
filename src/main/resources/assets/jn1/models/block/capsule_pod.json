@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/orientable",
+	"textures": {
+		"top": "jn1:block/capsule_pod_side",
+		"side": "jn1:block/capsule_pod_side",
+		"front": "jn1:block/capsule_pod_front",
+		"bottom": "jn1:block/capsule_pod_side",
+		"particle": "jn1:block/capsule_pod_side"
+	}
+}

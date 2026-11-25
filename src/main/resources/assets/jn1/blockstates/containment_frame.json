@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "jn1:block/containment_frame"
+    },
+    "axis=z": {
+      "model": "jn1:block/containment_frame_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "jn1:block/containment_frame_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

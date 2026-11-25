@@ -1,0 +1,131 @@
+{
+  "parent": "jn1:block/cum_jar_0",
+  "overrides": [
+    {
+      "predicate": {
+        "jn1:remplissage": 0.0,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_0"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.0,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_0_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.125,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_1"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.125,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_1_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.25,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_2"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.25,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_2_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.375,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_3"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.375,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_3_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.5,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_4"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.5,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_4_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.625,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_5"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.625,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_5_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.75,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_6"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.75,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_6_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.875,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_7"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 0.875,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_7_figurine"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 1.0,
+        "jn1:figurine": 0
+      },
+      "model": "jn1:block/cum_jar_8"
+    },
+    {
+      "predicate": {
+        "jn1:remplissage": 1.0,
+        "jn1:figurine": 1
+      },
+      "model": "jn1:block/cum_jar_8_figurine"
+    }
+  ]
+}

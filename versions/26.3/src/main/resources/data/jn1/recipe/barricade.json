@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "PPP",
+    " N ",
+    "PPP"
+  ],
+  "key": {
+    "P": "minecraft:oak_planks",
+    "N": "minecraft:iron_nugget"
+  },
+  "result": {
+    "id": "jn1:barricade",
+    "count": 4
+  }
+}

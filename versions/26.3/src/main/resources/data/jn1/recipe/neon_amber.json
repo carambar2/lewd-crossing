@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "minecraft:glass_pane",
+    "minecraft:glowstone_dust",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "jn1:neon_amber",
+    "count": 2
+  }
+}

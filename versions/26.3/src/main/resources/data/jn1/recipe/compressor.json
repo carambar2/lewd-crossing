@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "QPQ",
+    "DAD",
+    "CNC"
+  ],
+  "key": {
+    "Q": "minecraft:quartz_block",
+    "P": "minecraft:piston",
+    "D": "minecraft:diamond_block",
+    "A": "minecraft:anvil",
+    "C": "minecraft:chiseled_quartz_block",
+    "N": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "jn1:compressor"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:bra"
+    },
+    "title": {
+      "translate": "advancements.jn1.deshabillee.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.deshabillee.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:culotte"
+}

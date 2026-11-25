@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " C ",
+    " S ",
+    "S S"
+  ],
+  "key": {
+    "C": {
+      "item": "jn1:camera"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "id": "jn1:camera_stand",
+    "count": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:gender_potion"
+    },
+    "title": {
+      "translate": "advancements.jn1.inversion.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.inversion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "jn1:gender_potion"
+        }
+      }
+    }
+  },
+  "parent": "jn1:root"
+}

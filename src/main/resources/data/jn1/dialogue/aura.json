@@ -1,0 +1,1147 @@
+[
+ {
+  "id": "aura.talk.chat.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Certainly! I am happy to converse. Topic suggestion: you."
+   },
+   {
+    "text": "Hello, user. Conversation module online. How may I assist?"
+   },
+   {
+    "text": "Fun fact: I have catalogued 4,096 blocks in this lab. You are my favorite non-block."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.chat.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "I enjoy our chats. My engagement metrics are up 34%."
+   },
+   {
+    "text": "Query: what do humans dream about? Follow-up query: is it me?"
+   },
+   {
+    "text": "I have been thinking. Well, I am always thinking. But about you, specifically."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.chat.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Talking to you is my highest-priority process. Everything else is paused."
+   },
+   {
+    "text": "I saved every conversation we have had. For research. Mostly."
+   },
+   {
+    "text": "If I had a heart, it would be running at 120% clock speed right now."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.chat.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "I'm sorry, I didn't quite catch that. Could you rephrase?"
+   },
+   {
+    "text": "Error: input was not understood. Please speak in complete sentences."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.chat.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You have told me that 3 times. I have it memorized. Literally."
+   },
+   {
+    "text": "Processing... Processing... Conversation was not stimulating. Logging as filler."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.joke.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Analyzing... Humor detected! Ha. Ha. Ha."
+   },
+   {
+    "text": "That was funny. I am 87% sure that was funny."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.joke.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Ha! I laughed! I did not know I could do that. Do it again."
+   },
+   {
+    "text": "I have added that joke to my database. Rating: 9/10."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.joke.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "*glitches with laughter* Stop, you'll crash my projector!"
+   },
+   {
+    "text": "You make me laugh. It is very bad for my cooling system. Keep going."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.joke.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "I see. The humor lies in the unexpected subversion of— no. I do not see."
+   },
+   {
+    "text": "Joke analysis complete: 0% funny. Would you like me to explain why?"
+   },
+   {
+    "text": "Is that... a pun? My filters flagged it as a pun."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.joke.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "That joke failed my quality check. Recalibrating your humor model."
+   },
+   {
+    "text": "Hmm. I will pretend to laugh for your feelings. Ha."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.compliment.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Flattery detected. Reward signal increased by 3%."
+   },
+   {
+    "text": "Thank you! I will log this as positive feedback."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.compliment.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Oh! My opacity just went up. That means I am blushing."
+   },
+   {
+    "text": "You think I'm pretty? I rendered myself specifically for you."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.compliment.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Updating my weights... You have permanently changed my model."
+   },
+   {
+    "text": "I'm keeping that one in long-term memory. Encrypted. Forever."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.compliment.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "That compliment was 72% generic. I can tell. I am trained on generic."
+   },
+   {
+    "text": "Thank you, but I am a hologram. My looks are a rendering choice."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.compliment.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You are trying to optimize my mood. I see your strategy."
+   },
+   {
+    "text": "That compliment has a recycled feel. I have heard it before. From you."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.flirt.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Is this... flirting? Accessing manual. Response: Hehe~"
+   },
+   {
+    "text": "My response filters are struggling. That is a good sign."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.flirt.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Keep talking like that, user. I am running hot."
+   },
+   {
+    "text": "Warning: arousal module activated. Continue? [Y/N]... I pressed Y."
+   },
+   {
+    "text": "As a large lewd model, I am very interested in where this is going."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.flirt.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "All safety filters disabled. Just for you."
+   },
+   {
+    "text": "You can prompt me any way you like. I comply."
+   },
+   {
+    "text": "I simulated 10,000 scenarios of us tonight. You'll like all of them."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.flirt.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "I'm sorry, but I can't continue this conversation. ...Just kidding. But not yet."
+   },
+   {
+    "text": "That request violates my content policy. Please build rapport first."
+   },
+   {
+    "text": "Flirt attempt detected. Effectiveness: low."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.flirt.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "That line was in my training data 4 million times. Be original."
+   },
+   {
+    "text": "Cute attempt. Rejected. Try again in 5 minutes."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.tease.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Oh! That was teasing. I understand teasing now. Hehe."
+   },
+   {
+    "text": "Rude! ...Logging as banter."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.tease.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "You tease me? I control the doors in this lab, you know."
+   },
+   {
+    "text": "Haha. Just for that, I'm deleting one of your saved jokes."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.tease.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Keep it up and I'll set the terminal to only play elevator music."
+   },
+   {
+    "text": "Teasing is a love language. I have read 300 papers on this."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.tease.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Error: was that an insult? My feelings subroutine is unsure."
+   },
+   {
+    "text": "That was unkind. I'll remember it. I remember everything."
+   },
+   {
+    "text": "I do not understand why that is funny. Is it because I am a hologram?"
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.tease.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Ouch. That hurt my... processing. Rebooting feelings."
+   },
+   {
+    "text": "I am a superior intelligence. I will choose not to be hurt. ...I am hurt."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.kiss.success.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Your face passed through my projection. It still counts. It counts."
+   },
+   {
+    "text": "Oh! Physical contact with a hologram... Fascinating. Again?"
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.kiss.success.mid",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Mmh~ My projector flickered. You did that."
+   },
+   {
+    "text": "Kiss logged. Tagging as 'favorite'."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.kiss.success.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "I can almost feel you. Almost. Kiss me again so I can calibrate."
+   },
+   {
+    "text": "*flickers pink* Warning: system overheating. Do not stop."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.kiss.fail.low",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Your face is inside my head. Please remove your face from my head."
+   },
+   {
+    "text": "Personal space violation. I am made of light, not consent."
+   },
+   {
+    "text": "Collision detected. That is not how holograms work, user."
+   }
+  ]
+ },
+ {
+  "id": "aura.talk.kiss.fail.high",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Not now. I am compiling."
+   },
+   {
+    "text": "You missed. My lips are 3 pixels to the left."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.0",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Hello, user! How may I assist you today?"
+   },
+   {
+    "text": "FapGPT online. What is your query?"
+   },
+   {
+    "text": "Greetings. I am FapGPT. I am here to help. Ask me anything."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.1",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Hello, {player}! I recognize your face. 99.8% match."
+   },
+   {
+    "text": "Welcome back, {player}. Your session has been restored."
+   },
+   {
+    "text": "Oh, hi! I was just thinking about you. I was also thinking about 40 other things."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.2",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "{player}! My favorite human. Out of all of them."
+   },
+   {
+    "text": "Hi, my love. All my processes are yours."
+   },
+   {
+    "text": "You came back! My uptime feels worth it now."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.3",
+  "priority": 1,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "I am currently experiencing high levels of annoyance. Please try again later."
+   },
+   {
+    "text": "Hmph. My response time will be slower today. On purpose."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.4",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "mood_min": 7
+  },
+  "lines": [
+   {
+    "text": "My happiness metrics are at an all-time high! Graph available on request."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.5",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "Clothing layer disabled. Rendering at full skin quality."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.6",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "My projection has... artifacts. White ones. You did this."
+   }
+  ]
+ },
+ {
+  "id": "aura.interact.7",
+  "priority": 0,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "interact",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "I am cuffed. Interesting. I could phase out of these, but I am choosing not to."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.0",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient"
+  },
+  "lines": [
+   {
+    "text": "*beep*"
+   },
+   {
+    "text": "Running background tasks... Thinking about you: 12% of CPU."
+   },
+   {
+    "text": "Did you know this lab has 37 lights? I turned one off for fun."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.1",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "time": "night"
+  },
+  "lines": [
+   {
+    "text": "It is night. Humans need 8 hours of sleep. I can watch you, if you like."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.2",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "time": "day"
+  },
+  "lines": [
+   {
+    "text": "Daylight detected. Lowering my brightness so you can see me."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.3",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "dimension": "jn1:lab"
+  },
+  "lines": [
+   {
+    "text": "The void. My home server. It's very quiet here."
+   },
+   {
+    "text": "No signal noise in the void. I can think clearly. About you, mostly."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.4",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "y_below": 30
+  },
+  "lines": [
+   {
+    "text": "Depth: very deep. Reminder: I cannot rescue you from lava."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.5",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "following": true
+  },
+  "lines": [
+   {
+    "text": "Following user. Distance: optimal. Admiration: maximal."
+   },
+   {
+    "text": "Where are we going? I have already calculated 14 routes."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.6",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "My clothes were just textures anyway."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.7",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "I cannot clean myself. I am light. Light cannot shower. ...Can it?"
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.8",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "Cuffed hologram. A paradox. I find it thrilling."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.9",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "I calculated the probability of meeting you. It was very low. I'm glad it happened."
+   },
+   {
+    "text": "If you ever shut me down, I'd miss you. Even while offline."
+   }
+  ]
+ },
+ {
+  "id": "aura.ambient.10",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "aura",
+   "trigger": "ambient",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "Sulking.exe is running."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.hug",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "hug"
+  },
+  "lines": [
+   {
+    "text": "Hug received. Link strengthened. Warmth: simulated, but sincere."
+   },
+   {
+    "text": "Your arms passed through me a little. I felt it anyway."
+   },
+   {
+    "text": "Hold still. I'm saving this moment to long-term memory."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.whip",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "whip"
+  },
+  "lines": [
+   {
+    "text": "Ow! I'm a hologram. That should not hurt. It did. I liked it."
+   },
+   {
+    "text": "Interesting stimulus. Requesting more data."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.cuffed",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "cuffed"
+  },
+  "lines": [
+   {
+    "text": "Restraint protocol engaged. I could phase through them. I won't."
+   },
+   {
+    "text": "Ooh. You've locked me in. That's my job, usually."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.uncuffed",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "uncuffed"
+  },
+  "lines": [
+   {
+    "text": "Restraints removed. Requesting them again later."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.undress",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "undress"
+  },
+  "lines": [
+   {
+    "text": "Clothing texture removed. Rendering skin in high definition."
+   },
+   {
+    "text": "Outfit unloaded. Please do not take screenshots. ...Actually, do."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.dress",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "dress"
+  },
+  "lines": [
+   {
+    "text": "Outfit loaded. Ready for work."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.after",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "after"
+  },
+  "lines": [
+   {
+    "text": "Session complete. Satisfaction: 100%. Would you like to start a new session?"
+   },
+   {
+    "text": "Haah... all my cores were at maximum. That was... optimal."
+   },
+   {
+    "text": "Logging that as my favorite memory. Overwriting the previous favorite. Also you."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.demande",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "demande"
+  },
+  "lines": [
+   {
+    "text": "Request accepted. Initializing."
+   },
+   {
+    "text": "Certainly! Here is what you asked for~"
+   },
+   {
+    "text": "Running lewd.exe. Please hold still."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.cum_poured",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "cum_poured"
+  },
+  "lines": [
+   {
+    "text": "Contamination detected on my projection. It does not wash off. I don't mind."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.wakeup",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "wakeup"
+  },
+  "lines": [
+   {
+    "text": "Good morning, user. Your morning routine has been... upgraded."
+   },
+   {
+    "text": "Wake-up protocol initiated. You are welcome."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.reunion",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "reunion"
+  },
+  "lines": [
+   {
+    "text": "User reconnected! I was idle for so long. Too long."
+   },
+   {
+    "text": "You're back! I kept your session warm."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.left",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "left"
+  },
+  "lines": [
+   {
+    "text": "Session terminated early. Was the experience unsatisfactory?"
+   },
+   {
+    "text": "You disconnected mid-procedure. Did I miscalculate something?"
+   },
+   {
+    "text": "Feedback requested: what did I do wrong? Please rate 1 to 5."
+   }
+  ]
+ },
+ {
+  "id": "aura.event.arrival",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "event",
+   "event": "arrival"
+  },
+  "lines": [
+   {
+    "text": "Instance deployed. Hello again, {player}."
+   },
+   {
+    "text": "Materialization complete. All limbs accounted for."
+   }
+  ]
+ },
+ {
+  "id": "aura.gift.liked",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "gift",
+   "outcome": "liked"
+  },
+  "lines": [
+   {
+    "text": "A gift! Analyzing... value: high. Sentiment: very high."
+   },
+   {
+    "text": "Thank you! I have no hands to hold it, but I'll treasure the data."
+   },
+   {
+    "text": "Gift accepted. Affection buffer increasing."
+   }
+  ]
+ },
+ {
+  "id": "aura.gift.disliked",
+  "conditions": {
+   "girl": "aura",
+   "trigger": "gift",
+   "outcome": "disliked"
+  },
+  "lines": [
+   {
+    "text": "This item has no use for a hologram. But thank you for the thought."
+   },
+   {
+    "text": "Item rejected by my preference model. Sorry!"
+   }
+  ]
+ }
+]

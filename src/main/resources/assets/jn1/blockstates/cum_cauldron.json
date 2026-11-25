@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "caille=false,level=1": {
+      "model": "jn1:block/cum_cauldron_level1"
+    },
+    "caille=true,level=1": {
+      "model": "jn1:block/cum_cauldron_level1_cheese"
+    },
+    "caille=false,level=2": {
+      "model": "jn1:block/cum_cauldron_level2"
+    },
+    "caille=true,level=2": {
+      "model": "jn1:block/cum_cauldron_level2_cheese"
+    },
+    "caille=false,level=3": {
+      "model": "jn1:block/cum_cauldron_level3"
+    },
+    "caille=true,level=3": {
+      "model": "jn1:block/cum_cauldron_level3_cheese"
+    }
+  }
+}

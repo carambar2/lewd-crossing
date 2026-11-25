@@ -1,0 +1,49 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "jn1:block/vending_side_lower",
+		"north": "jn1:block/vending_front_lower",
+		"side": "jn1:block/vending_side_lower",
+		"top": "jn1:block/vending_top"
+	},
+	"elements": [
+		{
+			"from": [
+				0,
+				0,
+				0
+			],
+			"to": [
+				16,
+				16,
+				16
+			],
+			"faces": {
+				"north": {
+					"texture": "#north",
+					"cullface": "north"
+				},
+				"south": {
+					"texture": "#side",
+					"cullface": "south"
+				},
+				"east": {
+					"texture": "#side",
+					"cullface": "east"
+				},
+				"west": {
+					"texture": "#side",
+					"cullface": "west"
+				},
+				"up": {
+					"texture": "#top",
+					"cullface": "up"
+				},
+				"down": {
+					"texture": "#top",
+					"cullface": "down"
+				}
+			}
+		}
+	]
+}

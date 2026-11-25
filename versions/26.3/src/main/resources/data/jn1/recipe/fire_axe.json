@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:iron_axe",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "jn1:fire_axe"
+  }
+}

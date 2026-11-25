@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:capsule"
+    },
+    "title": {
+      "translate": "advancements.jn1.root.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.root.description"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "background": "minecraft:textures/block/pink_wool.png"
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

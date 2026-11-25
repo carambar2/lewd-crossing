@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    " W ",
+    " B "
+  ],
+  "key": {
+    "I": "minecraft:iron_ingot",
+    "W": "minecraft:water_bucket",
+    "B": "minecraft:iron_bars"
+  },
+  "result": {
+    "id": "jn1:decon_shower"
+  }
+}

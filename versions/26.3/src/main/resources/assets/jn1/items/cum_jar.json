@@ -1,0 +1,314 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:block_state",
+    "block_state_property": "figurine",
+    "cases": [
+      {
+        "when": "true",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:block_state",
+          "block_state_property": "cum",
+          "cases": [
+            {
+              "when": "0",
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_0_figurine"
+              }
+            },
+            {
+              "when": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_1_figurine"
+              }
+            },
+            {
+              "when": [
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_2_figurine"
+              }
+            },
+            {
+              "when": [
+                "22",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_3_figurine"
+              }
+            },
+            {
+              "when": [
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_4_figurine"
+              }
+            },
+            {
+              "when": [
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_5_figurine"
+              }
+            },
+            {
+              "when": [
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "53",
+                "54",
+                "55",
+                "56"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_6_figurine"
+              }
+            },
+            {
+              "when": [
+                "57",
+                "58",
+                "59",
+                "60",
+                "61",
+                "62",
+                "63",
+                "64"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_7_figurine"
+              }
+            },
+            {
+              "when": [
+                "65",
+                "66",
+                "67",
+                "68",
+                "69"
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "jn1:block/cum_jar_8_figurine"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_0_figurine"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:block_state",
+      "block_state_property": "cum",
+      "cases": [
+        {
+          "when": "0",
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_0"
+          }
+        },
+        {
+          "when": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_1"
+          }
+        },
+        {
+          "when": [
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_2"
+          }
+        },
+        {
+          "when": [
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_3"
+          }
+        },
+        {
+          "when": [
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_4"
+          }
+        },
+        {
+          "when": [
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_5"
+          }
+        },
+        {
+          "when": [
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_6"
+          }
+        },
+        {
+          "when": [
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_7"
+          }
+        },
+        {
+          "when": [
+            "65",
+            "66",
+            "67",
+            "68",
+            "69"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "jn1:block/cum_jar_8"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "jn1:block/cum_jar_0"
+      }
+    }
+  }
+}

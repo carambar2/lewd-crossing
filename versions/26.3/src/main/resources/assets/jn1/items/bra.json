@@ -1,0 +1,11 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jn1:item/bra",
+    "tints": [
+      {
+        "type": "jn1:lingerie"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "iii",
+    "igi",
+    "iri"
+  ],
+  "key": {
+    "i": "minecraft:iron_ingot",
+    "g": "minecraft:glass_pane",
+    "r": "minecraft:redstone"
+  },
+  "result": {
+    "id": "jn1:vending_machine"
+  }
+}

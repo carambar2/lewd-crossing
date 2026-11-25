@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    " L ",
+    "CIC",
+    "BBB"
+  ],
+  "key": {
+    "L": "minecraft:lightning_rod",
+    "C": "minecraft:copper_ingot",
+    "I": "minecraft:iron_block",
+    "B": "minecraft:polished_blackstone"
+  },
+  "result": {
+    "id": "jn1:rift_stabilizer"
+  }
+}

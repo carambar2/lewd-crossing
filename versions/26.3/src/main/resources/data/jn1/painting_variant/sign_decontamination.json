@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:sign_decontamination",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.jn1.sign_decontamination.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.sign_decontamination.author",
+    "color": "gray"
+  }
+}

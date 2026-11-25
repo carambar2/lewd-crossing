@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "DD",
+    "DD"
+  ],
+  "key": {
+    "D": {
+      "item": "jn1:horse_dildo"
+    }
+  },
+  "result": {
+    "id": "jn1:excalibur",
+    "count": 1
+  }
+}

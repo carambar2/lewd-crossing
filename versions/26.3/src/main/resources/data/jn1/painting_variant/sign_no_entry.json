@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:sign_no_entry",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.jn1.sign_no_entry.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.sign_no_entry.author",
+    "color": "gray"
+  }
+}

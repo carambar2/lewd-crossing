@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:paf",
+  "width": 6,
+  "height": 3,
+  "title": {
+    "translate": "painting.jn1.paf.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.paf.author",
+    "color": "gray"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:visit_the_void",
+  "width": 1,
+  "height": 2,
+  "title": {
+    "translate": "painting.jn1.visit_the_void.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.visit_the_void.author",
+    "color": "gray"
+  }
+}

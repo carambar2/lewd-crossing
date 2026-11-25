@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:brewing",
+  "input": {
+    "item": "jn1:booty_up_potion"
+  },
+  "reagent": {
+    "item": "minecraft:fermented_spider_eye"
+  },
+  "output": {
+    "id": "jn1:booty_down_potion"
+  }
+}

@@ -1,0 +1,1183 @@
+[
+ {
+  "id": "ellie.talk.chat.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Fine. Talk. I'm listening. Barely."
+   },
+   {
+    "text": "Small talk. How quaint."
+   },
+   {
+    "text": "You want to chat? Bold of you."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.chat.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "The night here is lovely. Too much sun, though. There's always too much sun."
+   },
+   {
+    "text": "I found a skull in a cave earlier. I named him Gerald. He's a better listener than most."
+   },
+   {
+    "text": "You're tolerable company, pet. That's high praise. Don't let it go to your head."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.chat.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "...I don't hate this. Talking with you. Don't make it weird."
+   },
+   {
+    "text": "Stay. Sit. You don't have to say anything. I like the quiet better with you in it."
+   },
+   {
+    "text": "You're mine, you know. Just so we're clear."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.chat.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "No."
+   },
+   {
+    "text": "Riveting. Truly. Are we done?"
+   },
+   {
+    "text": "I've had more interesting conversations with zombies."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.chat.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "chat",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Not now, pet. Mommy's thinking."
+   },
+   {
+    "text": "You're rambling. It's cute. It's also annoying."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.joke.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Heh. ...That was dark. I liked it."
+   },
+   {
+    "text": "Hm. You get one point."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.joke.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Ha! Okay. That one was actually funny."
+   },
+   {
+    "text": "Morbid. Just how I like it."
+   },
+   {
+    "text": "I laughed. Don't tell anyone. I have a reputation."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.joke.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You're terrible. Tell me another."
+   },
+   {
+    "text": "Keep making me laugh like that and I might start smiling in public. Disgusting."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.joke.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "*stares*"
+   },
+   {
+    "text": "That joke had the lifespan of a sunflower in the Nether."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.joke.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "joke",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Oh, pet. No. Never again."
+   },
+   {
+    "text": "That was so bad I want to bury it. Respectfully."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.compliment.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "...Hm. Thank you, I suppose."
+   },
+   {
+    "text": "At least you have taste."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.compliment.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Flattery. Keep it coming."
+   },
+   {
+    "text": "Obviously. But it's nice to hear it said out loud."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.compliment.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "...You actually mean that. Ugh. Come here."
+   },
+   {
+    "text": "Say that again. Slower."
+   },
+   {
+    "text": "Good {boy}. That's exactly what I wanted to hear."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.compliment.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Is that supposed to work on me? Cute."
+   },
+   {
+    "text": "Gag. Try again with less sugar."
+   },
+   {
+    "text": "I don't do compliments. I do obedience."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.compliment.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "compliment",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Laying it on a bit thick, aren't we?"
+   },
+   {
+    "text": "I know, darling. Tell me something I don't know."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.flirt.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Oh? Brave little thing, aren't you?"
+   },
+   {
+    "text": "Careful, pet. You don't know what you're starting."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.flirt.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Mm. Keep that up and I'll put you on a leash."
+   },
+   {
+    "text": "Come to mommy."
+   },
+   {
+    "text": "You're blushing. Adorable. Keep going."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.flirt.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "You're mine tonight. Not a request."
+   },
+   {
+    "text": "On your knees? ...Oh, I'm only half joking."
+   },
+   {
+    "text": "Good {boy}. Now come here and earn it."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.flirt.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "That's your line? Really? I'm embarrassed for you."
+   },
+   {
+    "text": "Down, {boy}. You haven't earned that yet."
+   },
+   {
+    "text": "Cheesy. Next."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.flirt.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "flirt",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Ugh, flowers and poetry. Who taught you that?"
+   },
+   {
+    "text": "I prefer when you just do as you're told."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.tease.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "Ha. You've got some bite. I like that."
+   },
+   {
+    "text": "Oh, sharp tongue. We'll see how long you keep it."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.tease.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Careful, pet. I bite back."
+   },
+   {
+    "text": "Mmh. Talk back to me again. I dare you."
+   },
+   {
+    "text": "Cheeky. You'll pay for that later."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.tease.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Keep testing me. I enjoy punishing you."
+   },
+   {
+    "text": "Oh, you want to play rough? Fine by me."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.tease.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Watch your mouth."
+   },
+   {
+    "text": "Was that meant to sting? Adorable."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.tease.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "tease",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Too far, pet. Sit in the corner and think about it."
+   },
+   {
+    "text": "Hm. Not funny. You're on thin ice."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.kiss.success.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 0,
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "...Mm. You've got guts. I'll give you that."
+   },
+   {
+    "text": "Hmph. Not bad. For a beginner."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.kiss.success.mid",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Mmh. Again. Slower this time."
+   },
+   {
+    "text": "You taste like trouble. I'll allow it."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.kiss.success.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "success",
+   "trust_min": 14,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Mm~ That's my good {boy}."
+   },
+   {
+    "text": "*bites your lip* ...Mine."
+   },
+   {
+    "text": "Kiss me like that again and I won't let you leave."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.kiss.fail.low",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 0,
+   "trust_max": 9
+  },
+  "lines": [
+   {
+    "text": "Did I say you could do that? *slap*"
+   },
+   {
+    "text": "Hands. Off. *slap*"
+   },
+   {
+    "text": "Back off before I make you."
+   }
+  ]
+ },
+ {
+  "id": "ellie.talk.kiss.fail.high",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "talk",
+   "talk": "kiss",
+   "outcome": "fail",
+   "trust_min": 10,
+   "trust_max": 20
+  },
+  "lines": [
+   {
+    "text": "Not now. I'll tell you when."
+   },
+   {
+    "text": "Patience, pet. You kiss me when I allow it."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.0",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "trust_max": 6
+  },
+  "lines": [
+   {
+    "text": "What do you want?"
+   },
+   {
+    "text": "Oh. It's you."
+   },
+   {
+    "text": "Make it quick. I was brooding."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.1",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "trust_min": 7,
+   "trust_max": 13
+  },
+  "lines": [
+   {
+    "text": "Hello, pet."
+   },
+   {
+    "text": "Back again? Can't stay away, can you?"
+   },
+   {
+    "text": "There you are. I was getting bored."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.2",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "Hello, darling. Come here."
+   },
+   {
+    "text": "My favorite pet. What can mommy do for you?"
+   },
+   {
+    "text": "...Hi. I missed you. Don't you dare repeat that."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.3",
+  "priority": 1,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "Not now."
+   },
+   {
+    "text": "I'm in a mood. Tread carefully."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.4",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "mood_min": 7
+  },
+  "lines": [
+   {
+    "text": "I'm in an unusually good mood. Don't ruin it."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.5",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "Eyes up here, pet. ...Fine. Look."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.6",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "Look at what you did to me. Messy little {boy}."
+   }
+  ]
+ },
+ {
+  "id": "ellie.interact.7",
+  "priority": 0,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "interact",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "Enjoy it while it lasts. Next time, you wear them."
+   },
+   {
+    "text": "You think these make you in charge? Cute."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.0",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient"
+  },
+  "lines": [
+   {
+    "text": "*sighs*"
+   },
+   {
+    "text": "Everything is so... colorful. Gross."
+   },
+   {
+    "text": "I miss my coffin. Joking. Mostly."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.1",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "time": "night"
+  },
+  "lines": [
+   {
+    "text": "Ah, the night. Finally, something beautiful."
+   },
+   {
+    "text": "The moon's out. My kind of light."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.2",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "time": "day"
+  },
+  "lines": [
+   {
+    "text": "The sun is out. Why is the sun always out."
+   },
+   {
+    "text": "Too bright. I'm going to burn like a zombie."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.3",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "dimension": "jn1:lab"
+  },
+  "lines": [
+   {
+    "text": "The void. Now this is my kind of decor."
+   },
+   {
+    "text": "Quiet. Dark. Endless. I could live here."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.4",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "light_max": 4
+  },
+  "lines": [
+   {
+    "text": "Mm. Nice and dark in here."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.5",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "following": true
+  },
+  "lines": [
+   {
+    "text": "I'm only following you because I choose to."
+   },
+   {
+    "text": "Lead the way, pet. Don't get us killed."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.6",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "outfit": "naked"
+  },
+  "lines": [
+   {
+    "text": "If anyone looks at me, I'm blaming you. And then I'm hurting them."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.7",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "traces_min": 2
+  },
+  "lines": [
+   {
+    "text": "I'm a mess. You're cleaning this up later. With your tongue."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.8",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "cuffed": true
+  },
+  "lines": [
+   {
+    "text": "You know I'm usually the one holding these, right?"
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.9",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "trust_min": 14
+  },
+  "lines": [
+   {
+    "text": "...I'm glad it's you. That's all."
+   },
+   {
+    "text": "If anything ever hurt you, I'd bury it. Alive."
+   }
+  ]
+ },
+ {
+  "id": "ellie.ambient.10",
+  "cooldown": 12000,
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "ambient",
+   "mood_max": -3
+  },
+  "lines": [
+   {
+    "text": "Don't talk to me right now."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.hug",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "hug"
+  },
+  "lines": [
+   {
+    "text": "...Fine. One hug. Don't get used to it."
+   },
+   {
+    "text": "Mm. You're warm. Shut up."
+   },
+   {
+    "text": "Hold on tight, pet. Tighter."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.whip",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "whip"
+  },
+  "lines": [
+   {
+    "text": "Ha! Is that all you've got?"
+   },
+   {
+    "text": "Mmh... cute. My turn next."
+   },
+   {
+    "text": "Harder, if you're going to bother."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.cuffed",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "cuffed"
+  },
+  "lines": [
+   {
+    "text": "Oh, you're brave. We'll see how brave tomorrow."
+   },
+   {
+    "text": "Interesting. Usually I'm on the other side of these."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.uncuffed",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "uncuffed"
+  },
+  "lines": [
+   {
+    "text": "Smart choice."
+   },
+   {
+    "text": "Free again. You'll regret that, pet."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.undress",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "undress"
+  },
+  "lines": [
+   {
+    "text": "Like what you see, pet?"
+   },
+   {
+    "text": "Fine. But you owe me."
+   },
+   {
+    "text": "Look all you want. Touch when I say."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.dress",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "dress"
+  },
+  "lines": [
+   {
+    "text": "Back in black. Where I belong."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.after",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "after"
+  },
+  "lines": [
+   {
+    "text": "Good {boy}. Very good {boy}."
+   },
+   {
+    "text": "Mm... not bad, pet. Not bad at all."
+   },
+   {
+    "text": "Now you lie there and let me look at you."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.demande",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "demande"
+  },
+  "lines": [
+   {
+    "text": "Come to mommy."
+   },
+   {
+    "text": "Finally. I was starting to think you'd never ask."
+   },
+   {
+    "text": "On your back, pet."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.cum_poured",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "cum_poured"
+  },
+  "lines": [
+   {
+    "text": "Seriously? ...Hmph. Lick it off later."
+   },
+   {
+    "text": "Messy little {boy}."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.wakeup",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "wakeup"
+  },
+  "lines": [
+   {
+    "text": "Wake up, pet. Mommy's hungry."
+   },
+   {
+    "text": "Good morning. Don't move. I'm busy."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.reunion",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "reunion"
+  },
+  "lines": [
+   {
+    "text": "Where were you? ...Not that I was counting the hours."
+   },
+   {
+    "text": "You left me alone with the sun. Unforgivable."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.left",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "left"
+  },
+  "lines": [
+   {
+    "text": "Leaving already? Didn't you like it, pet?"
+   },
+   {
+    "text": "Hm. Nobody walks out on me. ...Fine. Go."
+   },
+   {
+    "text": "Too much for you? I'll go easier next time. Maybe."
+   }
+  ]
+ },
+ {
+  "id": "ellie.event.arrival",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "event",
+   "event": "arrival"
+  },
+  "lines": [
+   {
+    "text": "You called, pet? Good. Stay close."
+   },
+   {
+    "text": "Hm. Took you long enough to ask for me."
+   },
+   {
+    "text": "I'm here. Try not to bore me."
+   }
+  ]
+ },
+ {
+  "id": "ellie.gift.liked",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "gift",
+   "outcome": "liked"
+  },
+  "lines": [
+   {
+    "text": "Hm. Acceptable tribute."
+   },
+   {
+    "text": "For me? ...Thank you. Don't make it a thing."
+   },
+   {
+    "text": "Good {boy}. You know what I like."
+   }
+  ]
+ },
+ {
+  "id": "ellie.gift.disliked",
+  "conditions": {
+   "girl": "ellie",
+   "trigger": "gift",
+   "outcome": "disliked"
+  },
+  "lines": [
+   {
+    "text": "What am I supposed to do with this? Bury it?"
+   },
+   {
+    "text": "No."
+   }
+  ]
+ }
+]

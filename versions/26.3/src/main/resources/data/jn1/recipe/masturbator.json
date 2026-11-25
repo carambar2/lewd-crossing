@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " P ",
+    "WSW",
+    " W "
+  ],
+  "key": {
+    "P": "minecraft:pink_dye",
+    "W": "minecraft:black_wool",
+    "S": "minecraft:slime_ball"
+  },
+  "result": {
+    "id": "jn1:masturbator"
+  }
+}

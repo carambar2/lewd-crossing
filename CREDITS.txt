@@ -1,0 +1,18 @@
+Lewd Crossing - credits
+
+Models and assets by other authors
+- Jenny and Ellie: models, textures, animations, voices and sound effects come
+  from the original Jenny Mod by SchnurriTV. FapGPT is built on Jenny's
+  skeleton and animations.
+- Gaster: the "Stylized Gaster" 3D model by Skyguy555.
+- Gaster's shop: Seam's shop background, the soul heart, the purchase sound
+  and the "8bitoperator" font as used in Deltarune, by Toby Fox.
+- Some block and item textures are recoloured from Minecraft's own textures
+  (Mojang Studios).
+
+Libraries
+- Fabric Loader and Fabric API (FabricMC)
+- GeckoLib (Tslat and contributors)
+
+Everything else in this mod (code, the other textures, sounds and music) was
+made for it.

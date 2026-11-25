@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "ddd",
+    "d d"
+  ],
+  "key": {
+    "d": {
+      "item": "jn1:dark_matter"
+    }
+  },
+  "result": {
+    "id": "jn1:void_helmet",
+    "count": 1
+  }
+}

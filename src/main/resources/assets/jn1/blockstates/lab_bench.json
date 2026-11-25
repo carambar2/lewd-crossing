@@ -1,0 +1,19 @@
+{
+	"variants": {
+		"facing=north": {
+			"model": "jn1:block/lab_bench"
+		},
+		"facing=east": {
+			"model": "jn1:block/lab_bench",
+			"y": 90
+		},
+		"facing=south": {
+			"model": "jn1:block/lab_bench",
+			"y": 180
+		},
+		"facing=west": {
+			"model": "jn1:block/lab_bench",
+			"y": 270
+		}
+	}
+}

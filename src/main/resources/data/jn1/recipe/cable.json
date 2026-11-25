@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "building",
+	"pattern": [
+		"CCC",
+		"C C",
+		"CCC"
+	],
+	"key": {
+		"C": {
+			"item": "minecraft:copper_ingot"
+		}
+	},
+	"result": {
+		"id": "jn1:cable",
+		"count": 8
+	}
+}

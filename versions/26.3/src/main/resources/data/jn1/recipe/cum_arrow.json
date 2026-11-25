@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "key": {
+    "A": "minecraft:arrow",
+    "C": "jn1:cum"
+  },
+  "result": {
+    "id": "jn1:cum_arrow",
+    "count": 8
+  }
+}

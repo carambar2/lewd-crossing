@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "C",
+    "P"
+  ],
+  "key": {
+    "C": "jn1:dried_cum",
+    "P": "minecraft:piston"
+  },
+  "result": {
+    "id": "jn1:cummy_piston"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SS ",
+    "SC ",
+    "  S"
+  ],
+  "key": {
+    "S": "minecraft:string",
+    "C": "jn1:dried_cum"
+  },
+  "result": {
+    "id": "minecraft:lead",
+    "count": 2
+  }
+}

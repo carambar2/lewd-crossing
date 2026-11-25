@@ -1,0 +1,12 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "jn1:item/neon_red",
+    "tints": [
+      {
+        "type": "minecraft:constant",
+        "value": 16726858
+      }
+    ]
+  }
+}

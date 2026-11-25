@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:dried_cum"
+    },
+    "title": {
+      "translate": "advancements.jn1.au_cum.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.au_cum.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:recolte"
+}

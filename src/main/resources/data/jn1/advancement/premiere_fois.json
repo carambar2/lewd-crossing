@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:cum"
+    },
+    "title": {
+      "translate": "advancements.jn1.premiere_fois.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.premiere_fois.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:participer"
+}

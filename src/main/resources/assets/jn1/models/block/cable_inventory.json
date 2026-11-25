@@ -1,0 +1,41 @@
+{
+	"textures": {
+		"noeud": "jn1:block/cable_core",
+		"tuyau": "jn1:block/cable",
+		"particle": "jn1:block/cable"
+	},
+	"elements": [
+		{
+			"from": [5, 5, 5],
+			"to": [11, 11, 11],
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#noeud"},
+				"south": {"uv": [5, 5, 11, 11], "texture": "#noeud"},
+				"up":    {"uv": [5, 5, 11, 11], "texture": "#noeud"},
+				"down":  {"uv": [5, 5, 11, 11], "texture": "#noeud"}
+			}
+		},
+		{
+			"from": [0, 5, 5],
+			"to": [5, 11, 11],
+			"faces": {
+				"west":  {"uv": [5, 5, 11, 11], "texture": "#tuyau"},
+				"north": {"uv": [0, 5, 5, 11], "texture": "#tuyau"},
+				"south": {"uv": [11, 5, 16, 11], "texture": "#tuyau"},
+				"up":    {"uv": [5, 0, 11, 5], "texture": "#tuyau"},
+				"down":  {"uv": [5, 11, 11, 16], "texture": "#tuyau"}
+			}
+		},
+		{
+			"from": [11, 5, 5],
+			"to": [16, 11, 11],
+			"faces": {
+				"east":  {"uv": [5, 5, 11, 11], "texture": "#tuyau"},
+				"north": {"uv": [0, 5, 5, 11], "texture": "#tuyau"},
+				"south": {"uv": [11, 5, 16, 11], "texture": "#tuyau"},
+				"up":    {"uv": [5, 0, 11, 5], "texture": "#tuyau"},
+				"down":  {"uv": [5, 11, 11, 16], "texture": "#tuyau"}
+			}
+		}
+	]
+}

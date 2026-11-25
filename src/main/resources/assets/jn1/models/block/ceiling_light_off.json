@@ -1,0 +1,79 @@
+{
+	"parent": "block/block",
+	"textures": {
+		"particle": "jn1:block/ceiling_light_off",
+		"panel": "jn1:block/ceiling_light_off",
+		"metal": "jn1:block/fixture_metal"
+	},
+	"elements": [
+		{
+			"from": [
+				2,
+				0,
+				2
+			],
+			"to": [
+				14,
+				1.5,
+				14
+			],
+			"faces": {
+				"up": {
+					"texture": "#panel",
+					"uv": [
+						2,
+						2,
+						14,
+						14
+					]
+				},
+				"down": {
+					"texture": "#metal",
+					"uv": [
+						2,
+						2,
+						14,
+						14
+					]
+				},
+				"north": {
+					"texture": "#metal",
+					"uv": [
+						2,
+						14,
+						14,
+						15.5
+					]
+				},
+				"south": {
+					"texture": "#metal",
+					"uv": [
+						2,
+						14,
+						14,
+						15.5
+					]
+				},
+				"east": {
+					"texture": "#metal",
+					"uv": [
+						2,
+						14,
+						14,
+						15.5
+					]
+				},
+				"west": {
+					"texture": "#metal",
+					"uv": [
+						2,
+						14,
+						14,
+						15.5
+					]
+				}
+			}
+		}
+	],
+	"ambientocclusion": false
+}

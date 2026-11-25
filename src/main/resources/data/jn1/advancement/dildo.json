@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "jn1:dildo"
+    },
+    "title": {
+      "translate": "advancements.jn1.dildo.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.dildo.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:cummy"
+}

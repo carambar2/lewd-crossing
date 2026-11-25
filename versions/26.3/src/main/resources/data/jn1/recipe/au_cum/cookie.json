@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "jn1_au_cum",
+  "ingredients": [
+    "minecraft:cookie",
+    "jn1:dried_cum"
+  ],
+  "result": {
+    "id": "minecraft:cookie",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "item.jn1.au_cum",
+        "with": [
+          {
+            "translate": "item.minecraft.cookie"
+          }
+        ]
+      },
+      "minecraft:custom_data": {
+        "jn1_au_cum": true
+      }
+    }
+  }
+}

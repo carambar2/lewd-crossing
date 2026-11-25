@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:hang_in_there",
+  "width": 1,
+  "height": 2,
+  "title": {
+    "translate": "painting.jn1.hang_in_there.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.hang_in_there.author",
+    "color": "gray"
+  }
+}

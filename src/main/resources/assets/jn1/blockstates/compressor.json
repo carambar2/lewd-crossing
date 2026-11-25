@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "etape=0,facing=north": {
+      "model": "jn1:block/compressor_0"
+    },
+    "etape=0,facing=east": {
+      "model": "jn1:block/compressor_0",
+      "y": 90
+    },
+    "etape=0,facing=south": {
+      "model": "jn1:block/compressor_0",
+      "y": 180
+    },
+    "etape=0,facing=west": {
+      "model": "jn1:block/compressor_0",
+      "y": 270
+    },
+    "etape=1,facing=north": {
+      "model": "jn1:block/compressor_1"
+    },
+    "etape=1,facing=east": {
+      "model": "jn1:block/compressor_1",
+      "y": 90
+    },
+    "etape=1,facing=south": {
+      "model": "jn1:block/compressor_1",
+      "y": 180
+    },
+    "etape=1,facing=west": {
+      "model": "jn1:block/compressor_1",
+      "y": 270
+    },
+    "etape=2,facing=north": {
+      "model": "jn1:block/compressor_2"
+    },
+    "etape=2,facing=east": {
+      "model": "jn1:block/compressor_2",
+      "y": 90
+    },
+    "etape=2,facing=south": {
+      "model": "jn1:block/compressor_2",
+      "y": 180
+    },
+    "etape=2,facing=west": {
+      "model": "jn1:block/compressor_2",
+      "y": 270
+    },
+    "etape=3,facing=north": {
+      "model": "jn1:block/compressor_3"
+    },
+    "etape=3,facing=east": {
+      "model": "jn1:block/compressor_3",
+      "y": 90
+    },
+    "etape=3,facing=south": {
+      "model": "jn1:block/compressor_3",
+      "y": 180
+    },
+    "etape=3,facing=west": {
+      "model": "jn1:block/compressor_3",
+      "y": 270
+    },
+    "etape=4,facing=north": {
+      "model": "jn1:block/compressor_4"
+    },
+    "etape=4,facing=east": {
+      "model": "jn1:block/compressor_4",
+      "y": 90
+    },
+    "etape=4,facing=south": {
+      "model": "jn1:block/compressor_4",
+      "y": 180
+    },
+    "etape=4,facing=west": {
+      "model": "jn1:block/compressor_4",
+      "y": 270
+    },
+    "etape=5,facing=north": {
+      "model": "jn1:block/compressor_5"
+    },
+    "etape=5,facing=east": {
+      "model": "jn1:block/compressor_5",
+      "y": 90
+    },
+    "etape=5,facing=south": {
+      "model": "jn1:block/compressor_5",
+      "y": 180
+    },
+    "etape=5,facing=west": {
+      "model": "jn1:block/compressor_5",
+      "y": 270
+    },
+    "etape=6,facing=north": {
+      "model": "jn1:block/compressor_6"
+    },
+    "etape=6,facing=east": {
+      "model": "jn1:block/compressor_6",
+      "y": 90
+    },
+    "etape=6,facing=south": {
+      "model": "jn1:block/compressor_6",
+      "y": 180
+    },
+    "etape=6,facing=west": {
+      "model": "jn1:block/compressor_6",
+      "y": 270
+    },
+    "etape=7,facing=north": {
+      "model": "jn1:block/compressor_7"
+    },
+    "etape=7,facing=east": {
+      "model": "jn1:block/compressor_7",
+      "y": 90
+    },
+    "etape=7,facing=south": {
+      "model": "jn1:block/compressor_7",
+      "y": 180
+    },
+    "etape=7,facing=west": {
+      "model": "jn1:block/compressor_7",
+      "y": 270
+    }
+  }
+}

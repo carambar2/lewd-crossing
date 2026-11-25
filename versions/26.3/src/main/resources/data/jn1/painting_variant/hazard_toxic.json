@@ -1,0 +1,13 @@
+{
+  "asset_id": "jn1:hazard_toxic",
+  "width": 1,
+  "height": 1,
+  "title": {
+    "translate": "painting.jn1.hazard_toxic.title",
+    "color": "yellow"
+  },
+  "author": {
+    "translate": "painting.jn1.hazard_toxic.author",
+    "color": "gray"
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "jn1:block/rift_stabilizer_column",
+    "socle": "jn1:block/rift_stabilizer_base",
+    "fut": "jn1:block/rift_stabilizer_column",
+    "bobine": "jn1:block/rift_stabilizer_coil",
+    "pointe": "jn1:block/rift_stabilizer_tip"
+  },
+  "elements": [
+    {
+      "from": [
+        1,
+        0,
+        1
+      ],
+      "to": [
+        15,
+        2,
+        15
+      ],
+      "faces": {
+        "north": {
+          "texture": "#socle"
+        },
+        "south": {
+          "texture": "#socle"
+        },
+        "east": {
+          "texture": "#socle"
+        },
+        "west": {
+          "texture": "#socle"
+        },
+        "up": {
+          "texture": "#socle"
+        },
+        "down": {
+          "texture": "#socle"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        2,
+        5
+      ],
+      "to": [
+        11,
+        12,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#fut"
+        },
+        "south": {
+          "texture": "#fut"
+        },
+        "east": {
+          "texture": "#fut"
+        },
+        "west": {
+          "texture": "#fut"
+        },
+        "up": {
+          "texture": "#fut"
+        },
+        "down": {
+          "texture": "#fut"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        4,
+        4
+      ],
+      "to": [
+        12,
+        6,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bobine"
+        },
+        "south": {
+          "texture": "#bobine"
+        },
+        "east": {
+          "texture": "#bobine"
+        },
+        "west": {
+          "texture": "#bobine"
+        },
+        "up": {
+          "texture": "#bobine"
+        },
+        "down": {
+          "texture": "#bobine"
+        }
+      }
+    },
+    {
+      "from": [
+        4,
+        8,
+        4
+      ],
+      "to": [
+        12,
+        10,
+        12
+      ],
+      "faces": {
+        "north": {
+          "texture": "#bobine"
+        },
+        "south": {
+          "texture": "#bobine"
+        },
+        "east": {
+          "texture": "#bobine"
+        },
+        "west": {
+          "texture": "#bobine"
+        },
+        "up": {
+          "texture": "#bobine"
+        },
+        "down": {
+          "texture": "#bobine"
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        12,
+        5
+      ],
+      "to": [
+        11,
+        13,
+        11
+      ],
+      "faces": {
+        "north": {
+          "texture": "#socle"
+        },
+        "south": {
+          "texture": "#socle"
+        },
+        "east": {
+          "texture": "#socle"
+        },
+        "west": {
+          "texture": "#socle"
+        },
+        "up": {
+          "texture": "#socle"
+        },
+        "down": {
+          "texture": "#socle"
+        }
+      }
+    },
+    {
+      "from": [
+        6.5,
+        13,
+        6.5
+      ],
+      "to": [
+        9.5,
+        16,
+        9.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#pointe"
+        },
+        "south": {
+          "texture": "#pointe"
+        },
+        "east": {
+          "texture": "#pointe"
+        },
+        "west": {
+          "texture": "#pointe"
+        },
+        "up": {
+          "texture": "#pointe"
+        },
+        "down": {
+          "texture": "#pointe"
+        }
+      }
+    }
+  ]
+}

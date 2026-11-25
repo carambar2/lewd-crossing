@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:pink_wool"
+    },
+    "title": {
+      "translate": "advancements.jn1.mouton.title"
+    },
+    "description": {
+      "translate": "advancements.jn1.mouton.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "jn1:dildo"
+}

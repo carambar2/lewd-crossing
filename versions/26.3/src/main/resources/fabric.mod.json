@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "jn1",
+	"version": "${version}",
+	"name": "Lewd Crossing",
+	"description": "Companions, lewd gadgets and a strange void dimension. Adults only (18+).",
+	"authors": [
+		"pyrofetch"
+	],
+	"contributors": [
+		"SchnurriTV (original Jenny Mod: Jenny and Ellie)",
+		"Skyguy555 (Gaster model, \"Stylized Gaster\")",
+		"Toby Fox (Deltarune assets in Gaster's shop)"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/jn1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.pyrofetch.jn1.JN1"
+		],
+		"client": [
+			"dev.pyrofetch.jn1.client.JN1Client"
+		],
+		"jei_mod_plugin": [
+			"dev.pyrofetch.jn1.client.compat.JeiCompat"
+		]
+	},
+	"mixins": [
+		"jn1.mixins.json",
+		{
+			"config": "jn1.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=${loader_min_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5"
+	}
+}
