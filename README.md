@@ -9,6 +9,8 @@ Companions to meet and win over, a collection of items and machines that bend
 the game's mechanics, and a strange dimension, the void, beneath the
 laboratories of the containment sites.
 
+![Jenny, Ellie and FapGPT in front of a house](screenshots/companions.png)
+
 ## Content
 
 - **Three companions**: Jenny, Ellie and FapGPT (the lab's holographic AI).
@@ -23,9 +25,17 @@ laboratories of the containment sites.
   "cum" dishes, sticky arrows and splash vials, jar, compressor and Cum
   Crystal.
 - **The lab and the void**: terminal (shop, radio, OnlyFaps), vending
-  machine, elevator, wall screens, void suit and void swimming, lidar, rifts,
-  and an unsettling merchant behind a tree.
+  machine, elevator, wall screens, void suit and void swimming, lidar, rifts.
 - **Structures**: houses in five biomes, containment sites.
+
+## Screenshots
+
+| | |
+|---|---|
+| ![A companion's screen](screenshots/companion_screen.png)<br>A companion's screen: affection, mood and what comes next | ![Talking to Jenny](screenshots/talk.png)<br>Talk: each companion has her own personality |
+| ![A hug](screenshots/hug.png)<br>A hug, through the player's eyes | ![The lab terminal](screenshots/terminal.png)<br>The lab terminal and Companions.exe |
+| ![The field notebook](screenshots/notebook.png)<br>The field notebook, with 3D figures | ![The breach of a containment site](screenshots/rift.png)<br>A containment site: the breach and its stabilizers |
+| ![A lab in the void](screenshots/void.png)<br>The void: a lab, its tree, windows onto other worlds | ![The void's sky](screenshots/void_sky.png)<br>The void's sky, crossed by cumtrails |
 
 ## Installation
 
@@ -49,9 +59,8 @@ have the right to redistribute them:
 
 - the 3D models, animations and textures of Jenny and Ellie, and those
   derived from them (FapGPT, the first-person hands);
-- Gaster's model;
-- the Deltarune assets used in Gaster's shop (background, heart, font,
-  purchase sound).
+- a third-party character model (credited in `CREDITS.txt`);
+- a few Deltarune assets (a background, a heart, a font, a sound).
 
 To play, use the jar from the Releases page.
 
@@ -69,9 +78,9 @@ and `versions/26.3/` only adds the files whose format changed in 26.3.
 
 ## Credits
 
-See `CREDITS.txt`, also included in the jar: SchnurriTV's Jenny Mod,
-Skyguy555's "Stylized Gaster" model, Deltarune assets (Toby Fox) in Gaster's
-shop, and recoloured game textures (Mojang).
+See `CREDITS.txt`, also included in the jar: SchnurriTV's Jenny Mod, a 3D
+model by Skyguy555, Deltarune assets (Toby Fox), and recoloured game textures
+(Mojang).
 
 ## License
 
