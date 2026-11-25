@@ -1,5 +1,7 @@
 # Lewd Crossing
 
+## **[GeckoLib](https://modrinth.com/mod/geckolib) is required to play.**
+
 A Minecraft mod for Fabric, in two versions: **1.21.1** and **26.3**. Adults
 only: on first launch, the game asks whether the player is 18 or older.
 
