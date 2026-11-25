@@ -10,7 +10,7 @@ pluginManagement {
 }
 
 plugins {
-	// Permet à Gradle de télécharger automatiquement un JDK 21 si la machine n'en a pas.
+	// Lets Gradle download a JDK automatically if the machine has none.
 	id 'org.gradle.toolchains.foojay-resolver-convention' version '1.0.0'
 }
 

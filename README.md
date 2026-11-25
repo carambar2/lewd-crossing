@@ -1,91 +1,77 @@
 # Lewd Crossing
 
-Mod Minecraft pour Fabric, en deux versions : **1.21.1** et **26.3**. Contenu
-réservé aux adultes : au premier lancement, le jeu demande si le joueur a 18 ans
-ou plus.
+A Minecraft mod for Fabric, in two versions: **1.21.1** and **26.3**. Adults
+only: on first launch, the game asks whether the player is 18 or older.
 
-Des compagnes à rencontrer et à apprivoiser, une collection d'objets et de
-machines qui détournent les mécaniques du jeu, et une dimension étrange, le
-vide, sous les laboratoires des sites de confinement.
+Companions to meet and win over, a collection of items and machines that bend
+the game's mechanics, and a strange dimension, the void, beneath the
+laboratories of the containment sites.
 
-## Contenu
+## Content
 
-- **Trois compagnes** : Jenny, Ellie et FapGPT (l'IA holographique du
-  laboratoire). Chacune a sa personnalité, ses répliques, son humeur
-  et une jauge d'affection qui ouvre peu à peu de nouvelles interactions
-  (discussion, câlin, tenues, demandes).
-- **Scènes animées**, avec ou sans participation du joueur, et une barre
-  d'excitation.
-- **Objets et jouets** : menottes, fouet, barre de pole dance, cloison à trou,
-  dildo pogo, Cummy piston, potions de forme et d'inversion, capsule de
-  capture, appareil photo et OnlyFaps.
-- **Le cum** : fioles, traces au sol et sur les filles, chaudron, fromage,
-  plats « au cum », flèches et fioles à jeter, bocal, compresseur et Cum
+- **Three companions**: Jenny, Ellie and FapGPT (the lab's holographic AI).
+  Each has her own personality, lines, mood and an affection meter that
+  gradually unlocks new interactions (talk, hug, outfits, requests).
+- **Animated scenes**, with or without the player taking part, and an
+  arousal bar.
+- **Items and toys**: handcuffs, whip, dance pole, glory wall, dildo pogo,
+  Cummy piston, shape and inversion potions, capture capsule, camera and
+  OnlyFaps.
+- **Cum**: vials, traces on the ground and on the girls, cauldron, cheese,
+  "cum" dishes, sticky arrows and splash vials, jar, compressor and Cum
   Crystal.
-- **Le laboratoire et le vide** : terminal (boutique, radio, OnlyFaps),
-  distributeur, ascenseur, écrans muraux, combinaison et nage dans le vide,
-  lidar, failles, et un marchand inquiétant derrière un arbre.
-- **Structures** : maisons dans cinq biomes, sites de confinement.
-
-Les textes du jeu sont en anglais.
+- **The lab and the void**: terminal (shop, radio, OnlyFaps), vending
+  machine, elevator, wall screens, void suit and void swimming, lidar, rifts,
+  and an unsettling merchant behind a tree.
+- **Structures**: houses in five biomes, containment sites.
 
 ## Installation
 
-Télécharger le jar de sa version de Minecraft depuis la page **Releases** du
-dépôt et le déposer dans le dossier `mods/` de l'instance.
+Download the jar for your Minecraft version from the repository's
+**Releases** page and put it in the instance's `mods/` folder.
 
-| Dépendance | Minecraft 1.21.1 | Minecraft 26.3 |
+| Dependency | Minecraft 1.21.1 | Minecraft 26.3 |
 |---|---|---|
-| Fabric Loader | 0.17 ou plus | 0.19 ou plus |
-| Fabric API | pour 1.21.1 | pour 26.3 |
-| GeckoLib | 4.9 ou plus | 5.5 ou plus |
+| Fabric Loader | 0.17 or newer | 0.19 or newer |
+| Fabric API | for 1.21.1 | for 26.3 |
+| GeckoLib | 4.9 or newer | 5.5 or newer |
 | Java | 21 | 25 |
 
-JEI est pris en charge s'il est installé (recettes d'alambic du mod), sans
-être nécessaire. Le mod doit être présent sur le client et sur le serveur.
+JEI is supported when installed (the mod's brewing recipes), but not
+required. The mod must be installed on both the client and the server.
 
-## Fichiers non publiés
+## Files not included
 
-Certains fichiers ne sont **pas publiés** dans ce dépôt : je ne suis pas
-certain d'avoir le droit de les redistribuer. Sont absents :
+Some files are **not included** in this repository, because I am not sure I
+have the right to redistribute them:
 
-- les modèles 3D, animations et planches de Jenny et d'Ellie, ainsi que ceux
-  qui en dérivent (FapGPT, les mains à la première personne) ;
-- le modèle de Gaster ;
-- les éléments tirés de Deltarune dans la boutique de Gaster (fond, cœur,
-  police, bruit d'achat).
+- the 3D models, animations and textures of Jenny and Ellie, and those
+  derived from them (FapGPT, the first-person hands);
+- Gaster's model;
+- the Deltarune assets used in Gaster's shop (background, heart, font,
+  purchase sound).
 
-Le code et le reste des ressources sont complets, mais un jar compilé depuis
-ce dépôt n'affichera pas ces personnages ni la boutique telle qu'en jeu. Pour
-jouer, utiliser le jar des Releases.
+To play, use the jar from the Releases page.
 
-## Compiler
+## Repository layout
 
-Version 1.21.1, à la racine :
-
-```bash
-./gradlew build
+```
+resources/          assets and data shared by both versions
+versions/1.21.1/    code and build for Minecraft 1.21.1
+versions/26.3/      code and build for Minecraft 26.3
 ```
 
-Version 26.3, dans `versions/26.3/` (elle reprend les ressources de la racine
-et n'y ajoute que ce que le format de 26.3 change) :
+Each version has its own code, because the Minecraft API changed too much
+between the two. The resources are shared: each version reads `resources/`,
+and `versions/26.3/` only adds the files whose format changed in 26.3.
 
-```bash
-cd versions/26.3
-./gradlew build
-```
+## Credits
 
-Le jar est écrit dans `build/libs/` de chaque version. Gradle télécharge
-lui-même le JDK qu'il faut (21 ou 25) si la machine n'en a pas.
+See `CREDITS.txt`, also included in the jar: SchnurriTV's Jenny Mod,
+Skyguy555's "Stylized Gaster" model, Deltarune assets (Toby Fox) in Gaster's
+shop, and recoloured game textures (Mojang).
 
-## Crédits
+## License
 
-Voir `CREDITS.txt`, également inclus dans le jar : le Jenny Mod de
-SchnurriTV, le modèle « Stylized Gaster » de Skyguy555, des éléments de
-Deltarune (Toby Fox) dans la boutique de Gaster, et des textures du jeu
-retintées (Mojang).
-
-## Licence
-
-Le code est sous licence MIT (`LICENSE`). Les ressources d'autres auteurs
-citées dans `CREDITS.txt` restent la propriété de leurs auteurs.
+The code is under the MIT license (`LICENSE`). Third-party assets listed in
+`CREDITS.txt` remain the property of their authors.

@@ -1,6 +1,6 @@
-# Ressources du projet 1.21.1 que le jar 26.3 ne prend pas (un chemin ou un dossier par
-# ligne, relatif à la racine des ressources). Voir build.gradle.
-# --- convertir_ressources.py : début (ne pas retoucher à la main) ---
+# Resources of the 1.21.1 project that the 26.3 jar leaves out (one path or
+# folder per line, relative to the resources root). See build.gradle.
+# --- generated: start (do not edit by hand) ---
 assets/jn1/textures/models/armor/void_suit_layer_1.png
 assets/jn1/textures/models/armor/void_suit_layer_2.png
 assets/minecraft/models/item/apple.json
@@ -44,4 +44,4 @@ assets/minecraft/models/item/spider_eye.json
 assets/minecraft/models/item/suspicious_stew.json
 assets/minecraft/models/item/sweet_berries.json
 assets/minecraft/models/item/tropical_fish.json
-# --- convertir_ressources.py : fin ---
+# --- generated: end ---
