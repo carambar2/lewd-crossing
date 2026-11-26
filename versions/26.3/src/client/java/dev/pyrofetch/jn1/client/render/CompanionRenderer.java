@@ -73,6 +73,9 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 
 	public static final DataTicket<Scène> SCÈNE = DataTicket.create("jn1_scene", Scène.class);
 
+	/** La lumière du monde à l'endroit d'une projection, avant que l'hologramme ne la remplace. */
+	private static final DataTicket<Integer> LUMIÈRE_DU_MONDE = DataTicket.create("jn1_world_light", Integer.class);
+
 	/**
 	 * Les os du mannequin qui ne paraissent jamais, quel que soit le réglage :
 	 * ceux qui accompagnent la pièce sous le torse. La 1.21.1 les masquait dans
@@ -116,7 +119,8 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 				SceneView.participating() == animatable, SceneView.firstPerson(),
 				animatable.getShape(Shapes.Part.BOOBS), animatable.getShape(Shapes.Part.BOOTY), animatable.hasScene(),
 				animatable.getTraces(), animatable.isInvisible(),
-				hologramme, hologramme ? Hologram.décalage(animatable) : 0.0F));
+				// Pas de parasite avec un partenaire : le joueur sauterait avec elle.
+				hologramme, hologramme && !partenaire ? Hologram.décalage(animatable) : 0.0F));
 	}
 
 	@Override
@@ -125,6 +129,7 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 		// Une projection est lumineuse dans le noir.
 		Scène scène = état.getGeckolibData(SCÈNE);
 		if (scène != null && scène.hologramme()) {
+			état.addGeckolibData(LUMIÈRE_DU_MONDE, état.lightCoords);
 			état.lightCoords = LightCoordsUtil.FULL_BRIGHT;
 		}
 		// Sa bulle est dessinée dans l'interface, au-dessus d'elle (BubbleOverlay).
@@ -249,9 +254,14 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 	 */
 	private void soumettre(RenderPassInfo<LivingEntityRenderState> info, OrderedSubmitNodeCollector renderTasks,
 	                       RenderType type, Couche couche, boolean traces, Scène scène) {
-		int lumière = info.packedLight();
+		// Le joueur n'est pas une projection : chez FapGPT, son corps et la
+		// pièce de scène gardaient la transparence et la pleine lumière de
+		// l'hologramme — on voyait le sol à travers ses propres bras.
+		boolean joueur = scène.hologramme() && scène.partenaire() && couche != Couche.CORPS;
+		Integer monde = joueur ? info.getGeckolibData(LUMIÈRE_DU_MONDE) : null;
+		int lumière = monde != null ? monde : info.packedLight();
 		int recouvrement = info.packedOverlay();
-		int couleur = info.renderColor();
+		int couleur = joueur ? 0xFFFFFFFF : info.renderColor();
 		renderTasks.submitCustomGeometry(info.poseStack(), type, (pose, tampon) -> {
 			PoseStack pile = info.poseStack();
 			pile.pushPose();

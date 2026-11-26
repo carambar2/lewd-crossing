@@ -1618,10 +1618,29 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 	 * <p>Réclamer à GeckoLib une animation absente du fichier lève une erreur :
 	 * mieux vaut ne rien jouer et laisser le modèle dans sa pose de repos.
 	 */
+	/**
+	 * Arrête un contrôleur en lui faisant lâcher les os.
+	 *
+	 * <p>GeckoLib 5 ne fait pas comme le 4 : un contrôleur qui rend
+	 * {@code STOP} saute à la dernière image de son animation et continue de
+	 * l'appliquer. Pendant une scène, la posture arrêtée tenait donc la
+	 * dernière image du repos par-dessus la scène — debout dans les scènes
+	 * {@code b_} et {@code p_}, à la place de la pose agenouillée — ; et une
+	 * scène finie aurait tenu sa dernière image par-dessus la posture.
+	 * {@code reset()} vide l'animation du contrôleur : il ne pilote plus rien,
+	 * comme un contrôleur arrêté de GeckoLib 4.
+	 */
+	public static PlayState relâcher(com.geckolib.animation.state.AnimationTest<?> state) {
+		if (state.controller().isAnimatingBones()) {
+			state.controller().reset();
+		}
+		return PlayState.STOP;
+	}
+
 	private PlayState play(com.geckolib.animation.state.AnimationTest<CompanionEntity> state,
 	                       CompanionKind.Role role) {
 		RawAnimation animation = this.looping(role);
-		return animation == null ? PlayState.STOP : state.setAndContinue(animation);
+		return animation == null ? relâcher(state) : state.setAndContinue(animation);
 	}
 
 	@Override
@@ -1634,7 +1653,7 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 		// et son état se lit sur `state.controller()`.
 		controllers.add(new AnimationController<CompanionEntity>("scene", 4, state -> {
 			if (!this.hasScene()) {
-				return PlayState.STOP;
+				return relâcher(state);
 			}
 			int serial = this.entityData.get(SCENE_SERIAL);
 			if (serial != this.seenSceneSerial) {
@@ -1655,7 +1674,7 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 
 		controllers.add(new AnimationController<CompanionEntity>("posture", 5, state -> {
 			if (this.hasScene()) {
-				return PlayState.STOP;
+				return relâcher(state);
 			}
 			if (this.isInWater()) {
 				return this.play(state, CompanionKind.Role.SWIM);
@@ -1699,7 +1718,7 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 		controllers.add(new AnimationController<CompanionEntity>("gesture", 3, state -> {
 			CompanionGesture gesture = this.getGesture();
 			if (gesture == CompanionGesture.NONE || this.hasScene()) {
-				return PlayState.STOP;
+				return relâcher(state);
 			}
 			return this.play(state, gesture.role());
 		}).setSoundKeyframeHandler(événement ->
@@ -1709,7 +1728,7 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 		// elle marche encore si on la tire par sa chaîne.
 		controllers.add(new AnimationController<CompanionEntity>("cuffs", 4, state -> {
 			if (!this.isCuffed() || this.hasScene() || !this.joueLesScènes()) {
-				return PlayState.STOP;
+				return relâcher(state);
 			}
 			return state.setAndContinue(RawAnimation.begin().thenLoop("animation." + this.kind().id() + ".jn1_cuffed"));
 		}));
@@ -1723,7 +1742,7 @@ public abstract class CompanionEntity extends PathfinderMob implements GeoEntity
 					&& (this.isTalking() || this.isDelighted())) {
 				return this.play(state, CompanionKind.Role.HAPPY);
 			}
-			return PlayState.STOP;
+			return relâcher(state);
 		}));
 	}
 

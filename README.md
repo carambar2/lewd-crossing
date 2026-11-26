@@ -16,8 +16,9 @@ laboratories of the containment sites.
 - **Three companions**: Jenny, Ellie and FapGPT (the lab's holographic AI).
   Each has her own personality, lines, mood and an affection meter that
   gradually unlocks new interactions (talk, hug, outfits, requests).
-- **Animated scenes**, with or without the player taking part, and an
-  arousal bar.
+- **Animated scenes** you take part in: ask her from her menu once she
+  likes you enough, then set the pace until the arousal bar fills up. A
+  creative-only scene remote also plays them for you to watch.
 - **Items and toys**: handcuffs, whip, dance pole, glory wall, dildo pogo,
   Cummy piston, shape and inversion potions, capture capsule, camera and
   OnlyFaps.

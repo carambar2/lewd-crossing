@@ -89,14 +89,14 @@ public final class MorphAnimatable implements GeoReplacedEntity {
 			if (test.getData(JOUEUR) instanceof Player joueur && joueur.isSwinging()) {
 				return jouer(test, CompanionKind.Role.SWIPE_A, false);
 			}
-			return PlayState.STOP;
+			return dev.pyrofetch.jn1.entity.CompanionEntity.relâcher(test);
 		}).setSoundKeyframeHandler(événement -> {
 		}));
 	}
 
 	private PlayState posture(AnimationTest<MorphAnimatable> test) {
 		if (!(test.getData(JOUEUR) instanceof Player joueur)) {
-			return PlayState.STOP;
+			return dev.pyrofetch.jn1.entity.CompanionEntity.relâcher(test);
 		}
 		CompanionKind.Role rôle;
 		if (joueur.isPassenger()) {
@@ -121,7 +121,8 @@ public final class MorphAnimatable implements GeoReplacedEntity {
 			nom = this.kind.animation(CompanionKind.Role.IDLE);
 		}
 		if (nom == null) {
-			return PlayState.STOP;
+			// GeckoLib 5 : un contrôleur arrêté tiendrait sa dernière image (voir CompanionEntity.relâcher).
+			return dev.pyrofetch.jn1.entity.CompanionEntity.relâcher(test);
 		}
 		return test.setAndContinue(boucle ? RawAnimation.begin().thenLoop(nom) : RawAnimation.begin().thenPlay(nom));
 	}

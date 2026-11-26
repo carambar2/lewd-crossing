@@ -86,6 +86,13 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 		this.traces = traces;
 	}
 
+	/** La lumière du monde à l'endroit de l'entité, avant que l'hologramme ne la remplace. */
+	private int lumièreDuMonde = LightmapTextureManager.MAX_LIGHT_COORDINATE;
+
+	private static boolean estHologramme(CompanionEntity entité) {
+		return entité instanceof dev.pyrofetch.jn1.entity.AuraEntity aura && aura.isHologram();
+	}
+
 	@Override
 	public void renderRecursively(MatrixStack poseStack, T animatable, GeoBone bone,
 	                              RenderLayer renderType, VertexConsumerProvider bufferSource,
@@ -105,6 +112,14 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 			RenderLayer couche = RenderLayer.getEntityTranslucent(SceneView.skin(animatable).texture());
 			renderType = couche;
 			buffer = bufferSource.getBuffer(couche);
+			// Le joueur n'est pas une projection : chez FapGPT, son corps (et
+			// la pièce de scène, qui en descend) gardait la transparence et la
+			// pleine lumière de l'hologramme — on voyait le sol à travers ses
+			// propres bras. Opaque, à la lumière du monde.
+			if (estHologramme(animatable)) {
+				colour = 0xFFFFFFFF;
+				packedLight = this.lumièreDuMonde;
+			}
 		}
 
 		// La pièce de scène a sa propre planche : ses UV visent un coin que celle
@@ -166,10 +181,14 @@ public class CompanionRenderer<T extends CompanionEntity> extends GeoEntityRende
 	@Override
 	public void render(T entity, float entityYaw, float partialTick, MatrixStack matrices,
 	                   VertexConsumerProvider vertexConsumers, int light) {
-		if (entity instanceof dev.pyrofetch.jn1.entity.AuraEntity aura && aura.isHologram()) {
-			// Lumineuse dans le noir, et décalée d'un cheveu pendant un parasite.
+		this.lumièreDuMonde = light;
+		if (estHologramme(entity)) {
+			// Lumineuse dans le noir, et décalée d'un cheveu pendant un parasite
+			// — pas avec un partenaire : le joueur sauterait avec elle.
 			matrices.push();
-			matrices.translate(Hologram.décalage(entity), 0.0F, 0.0F);
+			if (!entity.showsScenePartner()) {
+				matrices.translate(Hologram.décalage(entity), 0.0F, 0.0F);
+			}
 			super.render(entity, entityYaw, partialTick, matrices, vertexConsumers,
 					LightmapTextureManager.MAX_LIGHT_COORDINATE);
 			matrices.pop();
