@@ -11,6 +11,10 @@ laboratories of the containment sites.
 
 ![Jenny, Ellie and FapGPT in front of a house](screenshots/companions.png)
 
+## Trailer
+
+https://github.com/user-attachments/assets/4ff2f68c-ee4d-4196-902f-f6381b90c035
+
 ## Content
 
 - **Three companions**: Jenny, Ellie and FapGPT (the lab's holographic AI).
